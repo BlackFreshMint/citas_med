@@ -66,7 +66,7 @@ Sigan las Indicaciones para evitar malentendidos o codigo conduso
 ```
 ## No crear clases para cambios minimos
 ```
-***********************************No hagas esto************************************
+No hagas esto:
 
 HTML:
 <div class="flex">
