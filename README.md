@@ -1,7 +1,6 @@
 # Proyectos: Citas Medicas
 
-**NOTAS**
-
+> **Note**<br>
 * Tareas Asignadas en Trello
 * Los divs seran solo usados para aplicar clases o estilos especificos
 * Sigan las reglas mostradas para una mejor organizacion, no usar **HTML no semantico**
@@ -9,7 +8,7 @@
 
 ---
 
-> **Note**<br>
+
 Your note text here
 
 > **Warning**<br>
