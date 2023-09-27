@@ -1,11 +1,27 @@
 # Proyectos: Citas Medicas
-## Tareas Asignadas en Trello
-## Instalar la extension de Visual Studio Code: Live share
-## Los divs seran solo usados para aplicar clases o estilos especificos
+> Tareas Asignadas en Trello
+> Instalar la extension de Visual Studio Code: Live share
+### Los divs seran solo usados para aplicar clases o estilos especificos
 # Ejemplo:
-> <div class"img">
->   <p>texto prueba</p>
-> </div>
-#
+```
+<header>
+
+    <h1>Encabezado Titulo</ph1>
+
+</header>
+
+<main>
+    <article>
+
+        <p>texto prueba 1</p>
+
+        <div class"img">
+        <p>texto prueba 2</p>
+        </div>
+
+    </article>
+
+ </main>
+```
 # Todo sera encapsulado en Section o Article
 # informacion
