@@ -67,7 +67,7 @@ Sigan las Indicaciones para evitar malentendidos o codigo conduso
 ```
 ## No crear clases para cambios minimos
 ```
-No hagas esto:
+***********************************No hagas esto************************************
 
 HTML:
 <div class="flex">
@@ -90,17 +90,26 @@ CSS:
     flex-direction: row;
 }
 
-**Has esto**
+*************************************Has esto***************************************
 
 HTML:
+
 <div class="flex">
-    <p></p>
+
+    <p>text</p>
+
 </div>
 
 <div class="flex" style = "flex-direction: row;">
 
 </div>
 
+CSS:
+
+.flex {
+    display: flexbox:
+    flex-direction: column;
+}
 
 ```
 ## Ejemplo de Estructuracion del Codigo:
