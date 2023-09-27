@@ -12,7 +12,6 @@
 
 > **Warning**<br>
 Sigan las Indicaciones para evitar malentendidos o codigo conduso
-@JammalRT
 
 
 ## Ejemplo:
@@ -65,6 +64,29 @@ Sigan las Indicaciones para evitar malentendidos o codigo conduso
 
 </main>
 
+```
+## No crear clases para cambios minimos
+```
+No hagas esto:
+
+HTML:
+<div class="flex">
+
+    <p>text</p>
+
+</div>
+
+<div class="flex2"
+
+
+CSS:
+
+.flex {
+    display: flexbox:
+    flex-direction: column;
+}
+
+**Has esto**
 ```
 ## Ejemplo de Estructuracion del Codigo:
 [Ejemplo](https://github.com/BlackFreshMint/Citas_Med/blob/main/reference.txt)
