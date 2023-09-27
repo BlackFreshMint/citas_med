@@ -1,8 +1,7 @@
 # Proyectos: Citas Medicas
 > Tareas Asignadas en Trello
-
-[!NOTE]
- Instalar la extension de Visual Studio Code: Live share
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
 ### Los divs seran solo usados para aplicar clases o estilos especificos
 # Ejemplo:
 ```
