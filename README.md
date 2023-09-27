@@ -35,7 +35,6 @@ Sigan las Indicaciones para evitar malentendidos o codigo conduso
 
  </main>
 
-```
 ## Todo sera encapsulado en Section o Article
 ```
 
@@ -66,7 +65,7 @@ Sigan las Indicaciones para evitar malentendidos o codigo conduso
 ```
 ## No crear clases para cambios minimos
 ```
-No hagas esto:
+******************************************No hagas esto***************************************************
 
 HTML:
 <div class="flex">
@@ -76,6 +75,8 @@ HTML:
 </div>
 
 <div class="flex2"
+
+</div>
 
 
 CSS:
@@ -89,7 +90,7 @@ CSS:
     flex-direction: row;
 }
 
-*************************************Has esto***************************************
+Has esto:
 
 HTML:
 
