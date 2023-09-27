@@ -9,7 +9,6 @@
 
 ---
 
-
 > **Warning**<br>
 Sigan las Indicaciones para evitar malentendidos o codigo conduso
 
@@ -90,7 +89,7 @@ CSS:
     flex-direction: row;
 }
 
-Has esto:
+*******************************************Has esto*******************************************************
 
 HTML:
 
