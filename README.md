@@ -1,9 +1,10 @@
 # Proyectos: Citas Medicas
 
 > **Note**<br>
-* Tareas Asignadas en Trello
-* Los divs seran solo usados para aplicar clases o estilos especificos
-* Sigan las reglas mostradas para una mejor organizacion, no usar **HTML no semantico**
+    * Tareas Asignadas en Trello
+    * Los divs seran solo usados para aplicar clases o estilos especificos
+    * Sigan las reglas mostradas para una mejor organizacion, no usar **HTML no semantico**
+
 > Ademas de esto, para que las secciones de la pagina no sean tan ambiguas, como la cabecera, el menu de navegacion, etc.
 
 ---
