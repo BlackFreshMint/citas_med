@@ -9,10 +9,8 @@
 ---
 
 
-Your note text here
-
 > **Warning**<br>
-Your warning text here
+Sigan las Indicaciones para evitar malentendidos o codigo conduso
 
 
 ## Ejemplo:
