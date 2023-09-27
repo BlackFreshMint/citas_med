@@ -23,6 +23,7 @@ Sigan las Indicaciones para evitar malentendidos o codigo conduso
 </header>
 
 <main>
+
     <article>
 
         <p>texto prueba 1</p>
@@ -34,9 +35,11 @@ Sigan las Indicaciones para evitar malentendidos o codigo conduso
     </article>
 
  </main>
+
 ```
 ## Todo sera encapsulado en Section o Article
 ```
+
 <main>
 
     <section>
@@ -47,15 +50,20 @@ Sigan las Indicaciones para evitar malentendidos o codigo conduso
 
         </article>
 
+        <article>
+
+        <h1>Titulo</h1>
+
             <p>Articulo 2</p>
 
-        <article>
+        <h2>Subtitulo</h2>
 
         </article>
 
     </section>
 
 </main>
+
 ```
 ## Para entender la forma de encapsular mostrada:
 * [Referencia 1](https://www.scaler.com/topics/html/semantic-tags-in-html/)
