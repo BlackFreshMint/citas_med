@@ -85,8 +85,23 @@ CSS:
     display: flexbox:
     flex-direction: column;
 }
+.flex {
+    display: flexbox;
+    flex-direction: row;
+}
 
 **Has esto**
+
+HTML:
+<div class="flex">
+    <p></p>
+</div>
+
+<div class="flex" style = "flex-direction: row;">
+
+</div>
+
+
 ```
 ## Ejemplo de Estructuracion del Codigo:
 [Ejemplo](https://github.com/BlackFreshMint/Citas_Med/blob/main/reference.txt)
