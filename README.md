@@ -84,7 +84,7 @@ CSS:
     display: flexbox:
     flex-direction: column;
 }
-.flex {
+.flex2 {
     display: flexbox;
     flex-direction: row;
 }
