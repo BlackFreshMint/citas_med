@@ -9,6 +9,8 @@
 
 ---
 
+>:warning: **NOTE**
+
 ## Ejemplo:
 ```
 <header>
