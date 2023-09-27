@@ -112,7 +112,7 @@ CSS:
 
 ```
 ## Ejemplo de Estructuracion del Codigo:
-[Ejemplo](https://github.com/BlackFreshMint/Citas_Med/blob/main/reference.txt)
+- [Ejemplo](https://github.com/BlackFreshMint/Citas_Med/blob/main/reference.txt)
 ## Para entender la forma de encapsular mostrada:
 * [Referencia 1](https://www.scaler.com/topics/html/semantic-tags-in-html/)
 * [Referencia 2](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.semrush.com%2Fblog%2Fsemantic-html5-guide%2F&psig=AOvVaw27QHnD2vOGurCo7u5lV2uT&ust=1695919546808000&source=images&cd=vfe&opi=89978449&ved=0CBAQjhxqFwoTCNCfnuqey4EDFQAAAAAdAAAAABAI)
