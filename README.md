@@ -9,7 +9,12 @@
 
 ---
 
->:warning: **NOTE**
+> **Note**<br>
+Your note text here
+
+> **Warning**<br>
+Your warning text here
+
 
 ## Ejemplo:
 ```
