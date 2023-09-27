@@ -14,8 +14,7 @@
 Sigan las Indicaciones para evitar malentendidos o codigo conduso
 
 
-## Ejemplo:
-```
+## Ejemplos
 <header>
 
     <h1>Encabezado Titulo</ph1>
