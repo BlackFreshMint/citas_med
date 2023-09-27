@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="icon" type="type/x-icon" href="">
+    <link rel="stylesheet" href="stylesheets/s1.css">
+</head>
+    
+<body>
+
+<main>
+
+    <header style="display: flex;">
+
+        <img src="/res/img/profile.jpg" style="border: 4px solid #424242;">
+
+        <div style="display: flexbox; flex-direction: column; width: 80%;">
+
+            <h1>Imraim Ben Sayar Zarate Castillo</h1>
+            <p style="text-align: justify; width: 80%; margin-left: 10%;">Diseñador, Ilustrador, Programador con Enfoque en Desarrollo Web y Videojuegos, Desarrollador Independiente, Escritor. Abierto a Adquirir o Renovar Conocimientos</p>
+
+            <p>"No puedes correr, sin aprender a caminar"</p>
+
+        </div>
+
+    </header>
+
+    <div>
+
+        <aside style="width: 25%;">
+
+            <h2>Informacion de Contacto</h>
+            <h3>Correo</h3>
+
+            <div style="display: flexbox; flex-direction: row;">
+
+                <img src="res/svg/envelope-regular.svg" style="width: 7%; height: 7%; margin-top:5.2%;margin-left: 12%;"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=imrra.zarate.cas@gmail.com" style="margin-left:-2%;"><p>imrra.zarate.cas@gmail.com</p></a>
+
+            </div>
+
+            <h3>Telefono</h3>
+
+            <div style="display: flexbox; flex-direction: row;">
+
+                <img src="res/svg/nsvg1.svg" style="width: 16%; height: 5%; margin-top:2.4%;margin-left: 16%;"><p style="margin-left: -6%;">+52 618 208 4357</p>
+
+            </div>
+
+            <h3>Direccion</h3>
+            <div style="display: flexbox; flex-direction: row;">
+
+                <img src="/res/svg/location-dot-solid.svg" style="width: 4%; height: 2%; margin-top:6%;margin-left: 10%;"><p>San Lucas #102, Fracc. San Juan</p>
+
+            </div>
+
+            <h2>Formacion Academica</h2>
+            <h3>Escuela Primaria</h3>
+
+            <ul class="ul_justify">
+
+                <li><p class="sp_justify3"> Esc. Primaria Andrade Salmeron</p></li>
+
+            </ul>
+
+            <h3>Escuela Secundaria</h3>
+
+            <ul class="ul_justify" style="margin-left: 10.5%;">
+                <li><p class="sp_justify3">Esc. Secundaria Tecnica No.61</p></li>
+            </ul>
+
+            <h3>Escuela Preparatoria</h3>
+
+            <ul class="ul_justify" style="margin-left: 10.5%;">
+                <li><p class="sp_justify3">Centro de Bachillerato Tecnologico Industrial y de servicios No.110</p></li>
+            </ul>
+
+            <h2>Idiomas</h2>
+            <div style="display: flexbox; flex-direction: column;">
+                <ul class="ul_justify">
+                    <li><p class="sp_justify3">Ingles: B1</p></li>
+                    <li><p class="sp_justify3">Español: Nativo</p></li>
+                    <li><p class="sp_justify3">Ruso: A1</p></li>
+                </ul>
+            </div>
+
+        </aside>
+
+        <section style="width: 55%;">
+
+            <article>
+
+            <h2>Experiencia Laboral</h2>
+
+            <h3 style="text-align: justify; margin-left: 45%">Garrotero</h3>
+
+                <p class="sp_justify"> VIPS (Alsea) - Junio 2019 - Diciembre 2019</p>
+
+            <ul class="sp_justify">
+                <li><p class="sp_justify3">Area de Limpieza de Cocina<p></li>
+            </ul>
+
+            <h3>Desarrollo de Videojuegos</h3>
+
+            <p class="sp_justify">Desarrollador Independiente - Agosto 2022 - Diciembre 2022</p>
+
+            <ul class="sp_justify">
+                <li><p class="sp_justify3">Escritor</p></li>
+                <li><p class="sp_justify3">Programador</p></li>
+                <li><p class="sp_justify3">Diseñador de Personajes</p></li>
+                <li><p class="sp_justify3">Ilustrador</p></li>
+                <li><p class="sp_justify3">Artista Conceptual</p></li>
+                <li><p class="sp_justify3">Diseñador Ambiental</p></li>
+                <li><p class="sp_justify3">Animador</p></li>
+            </ul>
+
+            <p class="sp_justify">Equipo de Diseño - Junio 2023 - Agosto 2023</p>
+
+            <ul class="sp_justify">
+                <li><p class="sp_justify3">Diseñador Ambiental</p></li>
+                <li><p class="sp_justify3">Animador</p></li>
+            </ul>
+
+            </article>
+
+        </section>
+
+        <aside>
+
+            <h2> Otros Conocimientos</h2>
+
+                <h3>Lenguajes - Desarrollo</h3>
+
+                <ul class="ul_justify">
+                    <li><p class="sp_justify3">Java - Medio</p></li>
+                    <li><p class="sp_justify3">Python - Medio</p></li>
+                    <li><p class="sp_justify3">C++ - Basico</p></li>
+                </ul>
+
+                <h3>Lenguajes - Web</h3>
+
+                <ul class="ul_justify">
+                    <li><p class="sp_justify3">HTML - Avanzado</p></li>
+                    <li><p class="sp_justify3">CSS - Medio</p></li>
+                </ul>
+
+        </aside>
+
+    </div>
+
+</main>
+
+    <footer>
+        <p>Zarate Castillo - 2023</p>
+    </footer>
+
+</body>
+
+</html>
