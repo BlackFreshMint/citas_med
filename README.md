@@ -71,11 +71,15 @@ Sigan las Indicaciones para evitar malentendidos o codigo conduso
 HTML:
 <div class="flex">
 
-    <p>text</p>
+    <img src"image.png">
+    <img src-"profile">
 
 </div>
 
 <div class="flex2"
+
+    <img src="ico1.svg">
+    <img src="ico2.svg">
 
 </div>
 
