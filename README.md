@@ -14,6 +14,8 @@ Sigan las Indicaciones para evitar malentendidos o codigo conduso
 
 
 ## Ejemplos
+
+```
 <header>
 
     <h1>Encabezado Titulo</ph1>
@@ -33,7 +35,7 @@ Sigan las Indicaciones para evitar malentendidos o codigo conduso
     </article>
 
  </main>
-
+```
 ## Todo sera encapsulado en Section o Article
 ```
 
