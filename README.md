@@ -127,6 +127,10 @@ CSS:
 * [Referencia 3](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.w3schools.com%2Fhtml%2Fhtml5_semantic_elements.asp&psig=AOvVaw13GnyMN2gfLltEN1mc04lO&ust=1695919704458000&source=images&cd=vfe&opi=89978449&ved=0CBAQjhxqFwoTCNjPya6fy4EDFQAAAAAdAAAAABAD)
 
 ## Infomacion consultable:
+* [GUIA DE MOZILLA PARA DESARROLLO WEB](https://developer.mozilla.org/en-US/docs/Learn#where_to_start)
 * [SQL Y PHP Para DB (Video) ](https://www.youtube.com/watch?v=Y9yE98etanU)
 * [CSS #1](https://www.w3schools.com/css/)
-* [CSS #2]()
+* [CSS #2](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+* [HTML #1](https://www.w3schools.com/html/default.asp)
+* [HTML #2](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+* [JAVASCRIPT #1](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
