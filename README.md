@@ -117,6 +117,7 @@ CSS:
 }
 
 ```
+## agregar el nombre del formularion en php (para saber a que corresponde)
 ## Ejemplo de Estructuracion del Codigo:
 - [Ejemplo](https://github.com/BlackFreshMint/Citas_Med/blob/main/reference.txt)
 ## Para entender la forma de encapsular mostrada:
