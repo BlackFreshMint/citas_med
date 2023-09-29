@@ -1,3 +1,4 @@
+# LEER
 # Proyectos: Citas Medicas
 
 > **Note**<br>
@@ -124,3 +125,8 @@ CSS:
 * [Referencia 1](https://www.scaler.com/topics/html/semantic-tags-in-html/)
 * [Referencia 2](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.semrush.com%2Fblog%2Fsemantic-html5-guide%2F&psig=AOvVaw27QHnD2vOGurCo7u5lV2uT&ust=1695919546808000&source=images&cd=vfe&opi=89978449&ved=0CBAQjhxqFwoTCNCfnuqey4EDFQAAAAAdAAAAABAI)
 * [Referencia 3](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.w3schools.com%2Fhtml%2Fhtml5_semantic_elements.asp&psig=AOvVaw13GnyMN2gfLltEN1mc04lO&ust=1695919704458000&source=images&cd=vfe&opi=89978449&ved=0CBAQjhxqFwoTCNjPya6fy4EDFQAAAAAdAAAAABAD)
+
+## Infomacion consultable:
+* [SQL Y PHP Para DB (Video) ](https://www.youtube.com/watch?v=Y9yE98etanU)
+* [CSS #1](https://www.w3schools.com/css/)
+* [CSS #2]()
