@@ -10,3 +10,13 @@
     font-family: prov_3;
     src: url();
 }
+
+.bt {
+    padding: 2%;
+    border-right: 1px solid #000;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
