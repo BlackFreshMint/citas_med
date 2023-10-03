@@ -1,22 +1,24 @@
-@font-face {
-    font-family: prov_1 ;
-    src: url();
+header {
+    width: 100%;
+    height: 7.94%;
+    background-color: lightblue;
 }
-@font-face {
-    font-family: prov_2;
-    src: url();
+main {
+    width: 100%;
+    height: 71.71%;
+    background-color:cornflowerblue;
 }
-@font-face {
-    font-family: prov_3;
-    src: url();
+footer {
+    width: 100%;
+    height: 20.35%;
+    background-color: aqua;
+}
+nav {
+    display: flex;
+    flex-direction: row;
 }
 
 .bt {
     padding: 2%;
     border-right: 1px solid #000;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
 }
