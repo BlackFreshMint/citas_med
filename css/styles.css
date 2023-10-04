@@ -31,15 +31,19 @@ nav {
     flex-direction: row;
 }
 
+aside {
+    width: 50%;
+    height: 70%;
+    padding: 1%;
+    text-align: center;
+}
+
 .bt {
     padding: 2%;
     border-right: 1px solid #ffff;
     border-right-width: .20em;
     line-height: .15em;
 }
-svg path{
-    fill:white;
-  }
 
 a {
     height: 100%;
@@ -60,6 +64,19 @@ p {
     padding: 0;
     margin: 0;
 }
+
+h1{
+
+    color: black;
+    font-family: "MontserratEB";
+    font-size:xx-large;
+    width: 70%;
+    margin: 12% auto auto auto;
+
+}
+
+
+
 @font-face {
     font-family: 'MontserratEB';
     src: url(/res/font/Montserrat-ExtraBold.ttf);
