@@ -63,7 +63,7 @@ h1{
     color: black;
     font-family: "MontserratEB";
     font-size:xx-large;
-    width: 70%;
+    width: 80%;
     margin: 12% auto auto auto;
 
 }
@@ -107,7 +107,7 @@ h1{
     border-radius: 60px;
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 80%;
 }
 
 .bt {
@@ -148,4 +148,8 @@ h1{
     padding-bottom: 3%;
     font-family: "MontserratSB";
     font-size:xx-large;
+}
+.button_r:active{
+    background-color: white;
+    box-shadow: 2px 2px 5px #fc894d;
 }
