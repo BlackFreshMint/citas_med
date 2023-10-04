@@ -75,7 +75,13 @@ h1{
     font-weight: 500;
     text-align: left;
 }
-
+.m_sub{
+    color: black;
+    font-family: "MontserratM";
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
 
 @font-face {
     font-family: 'MontserratEB';
@@ -101,6 +107,7 @@ h1{
     border-radius: 60px;
     display: flex;
     flex-direction: column;
+    width: 90%;
 }
 
 .bt {
@@ -112,10 +119,33 @@ h1{
 .input_r {
     width: 80%;
     margin-top: 2%;
+    padding-bottom: 6%;
+    border-radius: 15px;
+    border: 0px;
+    text-align:center;
+    font-family:"MontserratM";
+    padding-top: 4%;
+}
+.input_rl {
+    width: 100%;
+    margin-top: 2%;
     padding-bottom: 5%;
     border-radius: 15px;
     border: 0px;
     text-align:center;
     font-family:"MontserratM";
+    padding-top: 5%;
+    margin-bottom: 2%;
+}
+.button_r {
+    background-color: #0D56E4;
+    color: white;
+    border-radius: 60px;
+    border: 0px;
+    width: 40%;
+    text-align: center;
     padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: "MontserratSB";
+    font-size:xx-large;
 }
