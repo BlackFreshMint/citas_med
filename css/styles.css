@@ -2,6 +2,12 @@ body {
     margin: 0;
     padding: 0;
     zoom: 90%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  body::-webkit-scrollbar{
+    display: none;
   }
 header {
     width:100%;
