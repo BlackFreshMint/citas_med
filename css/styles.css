@@ -1,3 +1,68 @@
+a {
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-family: "MontserratEB";
+    font-size: x-large;
+    text-decoration:none ;
+}
+
+a:hover{
+    background-color: #079797;
+}
+p {
+    text-align: center;
+    font-family: 'MontserratM';
+    padding: 0;
+    margin: 0;
+}
+
+
+h1{
+
+    color: black;
+    font-family: "MontserratEB";
+    font-size:xx-large;
+    width: 70%;
+    margin: 12% auto auto auto;
+
+}
+
+.m_title{
+    color: black;
+    font-family: "MontserratM";
+    font-size: 23px;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+@font-face {
+    font-family: 'MontserratEB';
+    src: url(/res/font/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family:'MontserratB' ;
+    src: url(/res/font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'MontserratSB' ;
+    src: url(/res/font/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'MontserratM';
+    src: url(/res/font/Montserrat-Medium.ttf);
+}
+
+.c {
+    background-color: rgba(7, 179, 179, 0.4);
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -44,55 +109,13 @@ aside {
     border-right-width: .20em;
     line-height: .15em;
 }
-
-a {
-    height: 100%;
-    text-align: center;
-    color: white;
-    font-family: "MontserratEB";
-    font-size: x-large;
-    text-decoration:none ;
+.input_r {
+    width: 80%;
+    margin-top: 2%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    border: 0px;
+    text-align:center;
+    font-family:"MontserratM";
+    padding-top: 3%;
 }
-
-a:hover{
-    background-color: #079797;
-}
-
-p {
-    text-align: center;
-    font-family: 'MontserratM';
-    padding: 0;
-    margin: 0;
-}
-
-h1{
-
-    color: black;
-    font-family: "MontserratEB";
-    font-size:xx-large;
-    width: 70%;
-    margin: 12% auto auto auto;
-
-}
-
-
-
-@font-face {
-    font-family: 'MontserratEB';
-    src: url(/res/font/Montserrat-ExtraBold.ttf);
-}
-
-@font-face {
-    font-family:'MontserratB' ;
-    src: url(/res/font/Montserrat-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'MontserratSB' ;
-    src: url(/res/font/Montserrat-SemiBold.ttf);
-}
-@font-face {
-    font-family: 'MontserratM';
-    src: url(/res/font/Montserrat-Medium.ttf);
-}
-
