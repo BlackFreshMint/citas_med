@@ -75,6 +75,13 @@ h1{
     margin: 12% auto auto auto;
 
 }
+.h1_na{
+    color: black;
+    font-family: "MontserratEB";
+    font-size:xx-large;
+    width: 80%;
+}
+
 em {
     font-style: normal;
     color: rgb(24,170,82);
@@ -101,7 +108,15 @@ em {
     font-weight: 500;
     text-align: left;
 }
-
+.r_title{
+    color: black;
+    font-family: "RobotoBl";
+    font-weight: 800;
+}
+@font-face {
+    font-family:"RobotoBl" ;
+    src: url(/res/font/Roboto-Black.ttf);
+}
 @font-face {
     font-family: 'MontserratEB';
     src: url(/res/font/Montserrat-ExtraBold.ttf);
