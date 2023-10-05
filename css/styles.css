@@ -169,6 +169,6 @@ em {
     font-size:xx-large;
 }
 .button_r:active{
-    box-shadow: 2px 2px 5px #fc894d;
+    box-shadow: 2px 2px 5px gray;
 }
 
