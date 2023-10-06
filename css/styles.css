@@ -186,4 +186,16 @@ em {
 .button_r:active{
     box-shadow: 2px 2px 5px gray;
 }
-
+.grid_3c {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    width: 80%%;
+}
+.img_box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
