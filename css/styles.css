@@ -47,7 +47,6 @@ aside {
     padding: 1%;
     text-align: center;
 }
-
 a {
     text-align: center;
     color: white;
@@ -193,11 +192,15 @@ em {
     grid-template-columns: 33.3% 33.3% 33.3%;
     width: 100%;
 }
+.grid_5c {
+    display: grid;
+    grid-template-columns: 12.5% 25% 25% 25% 12.5%;
+    width: 100%;
+}
 .img_box {
     width: 100px;
     height: 100px;
     border: 1px solid rgba(0, 0, 0, 0);
     background-size: contain;
     background-repeat: no-repeat;
-    justify-items: center;
 }
