@@ -191,7 +191,7 @@ em {
 .grid_3c {
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
-    width: 80%;
+    width: 100%;
 }
 .img_box {
     width: 100px;
@@ -199,5 +199,5 @@ em {
     border: 1px solid rgba(0, 0, 0, 0);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    justify-items: center;
 }
