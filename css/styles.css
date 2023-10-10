@@ -140,9 +140,7 @@ em {
 .c {
     background-color: rgba(7, 179, 179, 0.2);
     border-radius: 60px;
-    display: flex;
-    flex-direction: column;
-    width: 80%;
+    width: 90%;
 }
 
 .bt {
@@ -156,7 +154,7 @@ em {
     border-right-width: .20em;
 }
 .input_r {
-    width: 80%;
+    width: 35%;
     margin-top: 2%;
     padding-bottom: 6%;
     border-radius: 15px;
@@ -166,7 +164,7 @@ em {
     padding-top: 4%;
 }
 .input_rl {
-    width: 100%;
+    width: 80%;
     margin-top: 2%;
     padding-bottom: 5%;
     border-radius: 15px;
