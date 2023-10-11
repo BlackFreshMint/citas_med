@@ -28,17 +28,32 @@ CREATE TABLE IF NOT EXISTS `doctores` (
   PRIMARY KEY (`Doctor_ID`),
   KEY `especialidad` (`Especialidad_ID`),
   CONSTRAINT `especialidad` FOREIGN KEY (`Especialidad_ID`) REFERENCES `especialidades` (`Especialidad_ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- Dumping data for table cimec.doctores: ~0 rows (approximately)
+INSERT INTO `doctores` (`Nombre`, `Apellidos`, `Doctor_ID`, `Especialidad_ID`) VALUES
+	('Cristian', 'Ritchter', 1, 1),
+	('Jammal', 'Rodriguez', 2, 8);
 
 -- Dumping structure for table cimec.especialidades
 CREATE TABLE IF NOT EXISTS `especialidades` (
   `Especialidad_ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `Nombre_Especialidad` varchar(50) NOT NULL DEFAULT '',
   PRIMARY KEY (`Especialidad_ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- Dumping data for table cimec.especialidades: ~0 rows (approximately)
+INSERT INTO `especialidades` (`Especialidad_ID`, `Nombre_Especialidad`) VALUES
+	(1, 'Cardiologo'),
+	(2, 'Anesteciologo'),
+	(3, 'Dermatologo'),
+	(4, 'Endocrinologo'),
+	(5, 'Gastroenterologo'),
+	(6, 'Hematologo'),
+	(7, 'Nefrologo'),
+	(8, 'Ginecologo'),
+	(9, 'Oftalmologo'),
+	(10, 'Nutiologo');
 
 -- Dumping structure for table cimec.inicio_secion
 CREATE TABLE IF NOT EXISTS `inicio_secion` (
@@ -62,6 +77,9 @@ CREATE TABLE IF NOT EXISTS `pacientes` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- Dumping data for table cimec.pacientes: ~0 rows (approximately)
+INSERT INTO `pacientes` (`Nombres`, `Correo`, `Curp`, `Apellidos`, `Telefono`, `Domicilio`, `Unidad_Medica`) VALUES
+	('Jonathan', 'sajor@gmail.com', 'ROPJ030208HDGJRNA8', 'Rojas Portillo', 4294967295, 'Luz y Esperanza', 'cimec'),
+	('Kevin', 'kevin@gmail.com', 'VAGK04031310H000', 'Guerrero', 4294967295, 'Fraccionamiento JHD', 'cimec');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
