@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"RobotoBl" ;
+    src: url(/res/font/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: 'MontserratEB';
+    src: url(/res/font/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family:'MontserratB' ;
+    src: url(/res/font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'MontserratSB' ;
+    src: url(/res/font/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'MontserratM';
+    src: url(/res/font/Montserrat-Medium.ttf);
+}
+
+body{
+    margin: 0;
+}
+
+footer{
+    background-color: #1C1C1C;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+footer .left img{
+    width: 80px;
+    padding: 0px 10px;
+}
+
+footer .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+footer .left p{
+    margin: 30px 0px 15px 0px;
+    color: white;
+    font-family: "MontserratEB";
+    font-weight: bold;
+    font-size: 2.7em;
+}
+
+footer .left .logs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+footer .left a{
+    color: white;
+    font-family: "MontserratEB, sans-serif ";
+    letter-spacing: 0.15em;
+}
+
+footer .right{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    align-items: center;
+    padding: 10px 30px 50px 30px;
+}
+
+footer .right p{
+    margin: 30px 0px 15px 0px;
+    color: white;
+    font-family: "MontserratEB";
+    font-weight: bold;
+    font-size: 2.7em;
+}
+
+footer .right img{
+    width: 20px;
+    margin-right: 0.3em;
+}
+
+footer .right a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: "MontserratEB";
+    padding: 0.2em;
+}
+
+footer .mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+@media (min-width:1000px){
+    footer .left{
+        width: 40%;
+        float: left;
+        align-items: normal;
+    }
+
+    footer .left img{
+        margin-right: 50px;
+    }
+
+    footer .left .logs{
+        padding-bottom: 100px;
+    }
+
+    footer .left a{
+        font-size: 1.8em;
+        letter-spacing: 0;
+    }
+
+    footer .right{
+        width: 60%;
+        float: right;
+        align-items: normal;
+    }
+
+    footer .right p{
+        padding: 0px 0px 0px 250px;
+    }
+
+    footer .right a{
+        padding: 0px 0px 20px 250px;
+        font-family: "MontserratEB, sans";
+        font-size: 1.9em
+    }
+
+    footer .right img{
+        width: 30px;
+    }
+
+    footer .mid{
+        width: 100%;
+        padding: 30px 0px 10px 0px;
+        font-size: 1.5em;
+        letter-spacing: 1px;
+    }
+}
