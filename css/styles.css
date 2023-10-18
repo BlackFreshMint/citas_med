@@ -206,3 +206,14 @@ em {
     background-size: contain;
     background-repeat: no-repeat;
 }
+.grid_8c {
+    display: grid;
+    grid-template-columns: 6.5% 14.5% 14.5% 14.5% 14.5% 14.5% 14.5% 6.5%;
+    width: 100%;
+}
+.test_grid{
+    padding: 10%;
+    width: 40%;
+    height: 100%;
+    background-color: blue;
+}

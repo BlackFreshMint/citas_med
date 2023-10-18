@@ -1,5 +1,25 @@
 <?php
 
-//define here the vars what you'd use at forms or any other type of data collector
+$name = "Ben" ;
+$lastn = "Zarate";
+$birth = 2004;
+$edo_act = 2023;
 
-//here you can put the print if you wanna check if it's working
+//condiciones
+$l_age = 18;
+
+//op mat
+
+$edad = $edo_act - $birth;
+echo "Soy"." ".$name."<br>"."me apellido"." ".$lastn."<br>"."mi edad es de $edad años"."me gustan los tamales de rojo"."<br>";
+
+//if
+
+if ($edad > $l_age) {
+    echo "Legal, tienes $edad";
+} else {
+    echo "no legal, tienes  $edad";
+}
+
+
+?>
