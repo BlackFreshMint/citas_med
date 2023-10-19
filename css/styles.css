@@ -233,3 +233,7 @@ em {
     width: 50%;
     text-align: left;
 }
+.img_az{
+    width: calc(15vw);
+
+}
