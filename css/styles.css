@@ -67,7 +67,6 @@ p {
 
 
 h1{
-
     color: black;
     font-family: "MontserratEB";
     /* font-size:xx-large; */
@@ -153,6 +152,11 @@ em {
     border-radius: 60px;
     width: 90%;
 }
+.c2 {
+    background-color: rgba(7, 179, 179, 0.2);
+    border-radius: 60px;
+    width: 70%;
+}
 
 .bt {
     border-right: 1px solid #ffff;
@@ -236,4 +240,7 @@ em {
 .img_az{
     width: calc(15vw);
 
+}
+::placeholder{
+    text-align: left;
 }
