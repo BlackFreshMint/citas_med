@@ -102,6 +102,13 @@ em {
     font-weight: 500;
     text-align: left;
 }
+.m_sub_s{
+    color: black;
+    font-family: "MontserratSB";
+    font-size: calc(1rem + 1vw);
+    font-weight: 400;
+    text-align: left;
+}
 .m_sb {
     color: black;
     font-family: "MontserratSB";
@@ -137,7 +144,10 @@ em {
     font-family: 'MontserratM';
     src: url(/res/font/Montserrat-Medium.ttf);
 }
-
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/res/font/Montserrat-Regular.ttf);
+}
 .c {
     background-color: rgba(7, 179, 179, 0.2);
     border-radius: 60px;
