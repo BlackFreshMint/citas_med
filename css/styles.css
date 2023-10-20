@@ -121,32 +121,6 @@ em {
     font-weight: 800;
     font-size: calc(1rem + 3vw)
 }
-@font-face {
-    font-family:"RobotoBl" ;
-    src: url(/res/font/Roboto-Black.ttf);
-}
-@font-face {
-    font-family: 'MontserratEB';
-    src: url(/res/font/Montserrat-ExtraBold.ttf);
-}
-
-@font-face {
-    font-family:'MontserratB' ;
-    src: url(/res/font/Montserrat-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'MontserratSB' ;
-    src: url(/res/font/Montserrat-SemiBold.ttf);
-}
-@font-face {
-    font-family: 'MontserratM';
-    src: url(/res/font/Montserrat-Medium.ttf);
-}
-@font-face {
-    font-family: 'Montserrat';
-    src: url(/res/font/Montserrat-Regular.ttf);
-}
 .c {
     background-color: rgba(7, 179, 179, 0.2);
     border-radius: 60px;
