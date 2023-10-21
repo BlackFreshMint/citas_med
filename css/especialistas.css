@@ -7,21 +7,33 @@
 
 .column {
     flex-basis: 30%; /* Establecer el ancho base de cada columna */
-    padding: 0px 0px 0px 50px;
+}
+
+.column-left{
+    position: relative;
+    left: 90px;
+}
+
+.column-right{
+    position: relative;
+    right: 90px;
 }
 
 h1{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*font-size: 30px;
     position: relative;
     left: 22.5px;
-    bottom: -30px;
+    bottom: -30px;*/   
 }
 
-h3{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
     position: relative;
     right: 140px;
     bottom: -80px;
+    white-space: normal;
 
 }
 
@@ -44,6 +56,21 @@ h3{
     overflow: hidden;
 }
 
+.title-anestesiologia{
+    font-size: 24px;
+    position: relative;
+    left: 40px;
+    bottom: -35px;
+}
+
+.text-anestesiologia{
+    font-size: 18px;
+    position: relative;
+    bottom: 230px;
+    left: 29%;
+    height: 0px;
+}
+
 .cardiologia{
     background-image: linear-gradient(to bottom, #07b3b32e 55%, white 45%);
     display: flex;
@@ -61,6 +88,22 @@ h3{
     display: inline-block;
     border-radius: 60px 60px 0px 0px;
     overflow: hidden;
+}
+
+.title-cardiologia{
+    font-size: 24px;
+    position: relative;
+    left: 55px;
+    bottom: -19px;
+    height: 0px; 
+}
+
+.text-cardiologia{
+    font-size: 18px;
+    position: relative;
+    bottom: 230px;
+    left: 23%;
+    height: 0px;
 }
 
 .dermatologia{
@@ -82,6 +125,21 @@ h3{
     overflow: hidden;
 }
 
+.title-dermatologia{
+    font-size: 24px;
+    position: relative;
+    left: 45px;
+    bottom: -35px; 
+}
+
+.text-dermatologia{
+    font-size: 18px;
+    position: relative;
+    bottom: 230px;
+    left: 25%;
+    height: 0px;
+}
+
 .endocrinologia{
     background-image: linear-gradient(to bottom, #07b3b32e 55%, white 45%);
     display: flex;
@@ -90,15 +148,34 @@ h3{
     height: 252px;
     border-radius: 60px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 100px;
 }
 
 .foto-endocrinologia{
     position: relative;
-    bottom: 261.5px;
+    bottom: 361.5px;
     left: 50px;
     display: inline-block;
     border-radius: 60px 60px 0px 0px;
     overflow: hidden;
+}
+
+.title-endocrinologia{
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    left: 15%;
+    bottom: -35px;
+}
+
+.text-endocrinologia{
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    bottom: 330px;
+    left: 0%;
+    height: 0px;
 }
 
 .gastroenterologia{
@@ -109,15 +186,33 @@ h3{
     height: 252px;
     border-radius: 60px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 100px;
 }
 
 .foto-gastroenterologia{
     position: relative;
-    bottom: 261.5px;
+    bottom: 361.5px;
     left: 50px;
     display: inline-block;
     border-radius: 60px 60px 0px 0px;
     overflow: hidden;
+}
+
+.title-gastroenterologia{
+    font-size: 24px;
+    position: relative;
+    left: 20px;
+    bottom: -35px;
+}
+
+.text-gastroenterologia{
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 330px;
+    left: 0%;
+    height: 0px;
 }
 
 .cirugia-general{
@@ -128,15 +223,33 @@ h3{
     height: 252px;
     border-radius: 60px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 100px;
 }
 
 .foto-cirugia{
     position: relative;
-    bottom: 261.5px;
+    bottom: 361.5px;
     left: 50px;
     display: inline-block;
     border-radius: 60px 60px 0px 0px;
     overflow: hidden;
+}
+
+.title-cirugia{
+    font-size: 24px;
+    position: relative;
+    left: 35px;
+    bottom: -35px;
+}
+
+.text-cirugia{
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    bottom: 330px;
+    left: 0%;
+    height: 0px;
 }
 
 .hematologia{
@@ -147,15 +260,32 @@ h3{
     height: 252px;
     border-radius: 60px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 200px;
 }
 
 .foto-hematologia{
     position: relative;
-    bottom: 261.5px;
+    bottom: 461.5px;
     left: 50px;
     display: inline-block;
     border-radius: 60px 60px 0px 0px;
     overflow: hidden;
+}
+
+.title-hematologia{
+    font-size: 24px;
+    position: relative;
+    left: 45px;
+    bottom: -35px; 
+}
+
+.text-hematologia{
+    font-size: 18px;
+    position: relative;
+    bottom: 440px;
+    left: 23%;
+    height: 0px;
 }
 
 .inmunologia{
@@ -166,15 +296,33 @@ h3{
     height: 252px;
     border-radius: 60px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 200px;
 }
 
 .foto-inmunologia{
     position: relative;
-    bottom: 261.5px;
+    bottom: 461.5px;
     left: 50px;
     display: inline-block;
     border-radius: 60px 60px 0px 0px;
     overflow: hidden;
+}
+
+.title-inmunologia{
+    font-size: 24px;
+    position: relative;
+    left: 50px;
+    bottom: -35px; 
+}
+
+.text-inmunologia{
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    bottom: 440px;
+    left: 0%;
+    height: 0px;
 }
 
 .infecciones{
@@ -185,15 +333,33 @@ h3{
     height: 252px;
     border-radius: 60px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 200px;
 }
 
 .foto-infecciones{
     position: relative;
-    bottom: 261.5px;
+    bottom: 461.5px;
     left: 50px;
     display: inline-block;
     border-radius: 60px 60px 0px 0px;
     overflow: hidden;
+}
+
+.title-infecciones{
+    font-size: 24px;
+    position: relative;
+    left: 60px;
+    bottom: -35px; 
+}
+
+.text-infecciones{
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    bottom: 440px;
+    left: 0%;
+    height: 0px;
 }
 
 .nefrologia{
@@ -204,15 +370,33 @@ h3{
     height: 252px;
     border-radius: 60px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 300px;
 }
 
 .foto-nefrologia{
     position: relative;
-    bottom: 261.5px;
+    bottom: 561.5px;
     left: 50px;
     display: inline-block;
     border-radius: 60px 60px 0px 0px;
     overflow: hidden;
+}
+
+.title-nefrologia{
+    font-size: 24px;
+    position: relative;
+    left: 60px;
+    bottom: -35px; 
+}
+
+.text-nefrologia{
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    bottom: 530px;
+    left: 0%;
+    height: 0px;
 }
 
 .neurologia{
@@ -223,15 +407,33 @@ h3{
     height: 252px;
     border-radius: 60px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 300px;
 }
 
 .foto-neurologia{
     position: relative;
-    bottom: 261.5px;
+    bottom: 561.5px;
     left: 50px;
     display: inline-block;
     border-radius: 60px 60px 0px 0px;
     overflow: hidden;
+}
+
+.title-neurologia{
+    font-size: 24px;
+    position: relative;
+    left: 60px;
+    bottom: -35px; 
+}
+
+.text-neurologia{
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    bottom: 530px;
+    left: 0%;
+    height: 0px;
 }
 
 .ginecologia{
@@ -242,18 +444,37 @@ h3{
     height: 252px;
     border-radius: 60px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 300px;
 }
 
 .foto-ginecologia{
     position: relative;
-    bottom: 261.5px;
+    bottom: 561.5px;
     left: 50px;
     display: inline-block;
     border-radius: 60px 60px 0px 0px;
     overflow: hidden;
 }
 
-.oncologia{
+.title-ginecologia{
+    font-size: 24px;
+    position: relative;
+    left: 55px;
+    bottom: -35px; 
+}
+
+.text-ginecologia{
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    bottom: 530px;
+    left: 0%;
+    height: 0px;
+}
+
+/*.oncologia{
     background-image: linear-gradient(to bottom, #07b3b32e 55%, white 45%);
     display: flex;
     align-items: center;
@@ -261,15 +482,25 @@ h3{
     height: 252px;
     border-radius: 60px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 400px;
 }
 
 .foto-oncologia{
     position: relative;
-    bottom: 261.5px;
+    bottom: 661.5px;
     left: 50px;
     display: inline-block;
     border-radius: 60px 60px 0px 0px;
     overflow: hidden;
+}
+
+.title-oncologia{
+    font-size: 24px;
+    position: relative;
+    left: 65px;
+    bottom: -35px; 
 }
 
 .oftalmologia{
@@ -280,15 +511,24 @@ h3{
     height: 252px;
     border-radius: 60px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 400px;
 }
 
 .foto-oftalmologia{
     position: relative;
-    bottom: 261.5px;
+    bottom: 661.5px;
     left: 50px;
     display: inline-block;
     border-radius: 60px 60px 0px 0px;
     overflow: hidden;
+}
+
+.title-oftalmologia{
+    font-size: 24px;
+    position: relative;
+    left: 45px;
+    bottom: -35px; 
 }
 
 .ortopedia{
@@ -299,13 +539,106 @@ h3{
     height: 252px;
     border-radius: 60px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 400px;
 }
 
 .foto-ortopedia{
     position: relative;
-    bottom: 261.5px;
+    bottom: 661.5px;
     left: 50px;
     display: inline-block;
     border-radius: 60px 60px 0px 0px;
     overflow: hidden;
+}
+
+.title-ortopedia{
+    font-size: 24px;
+    position: relative;
+    left: 65px;
+    bottom: -35px; 
+}
+
+.otorrinolaringologia{
+    background-image: linear-gradient(to bottom, #07b3b32e 55%, white 45%);
+    display: flex;
+    align-items: center;
+    width: 246px;
+    height: 252px;
+    border-radius: 60px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 500px;
+}
+
+.foto-otorrinolaringologia{
+    position: relative;
+    bottom: 761.5px;
+    left: 50px;
+    display: inline-block;
+    border-radius: 60px 60px 0px 0px;
+    overflow: hidden;
+}
+
+.title-otorrinolaringologia{
+    font-size: 24px;
+    position: relative;
+    left: 5px;
+    bottom: -35px; 
+}
+
+.psiquiatria{
+    background-image: linear-gradient(to bottom, #07b3b32e 55%, white 45%);
+    display: flex;
+    align-items: center;
+    width: 246px;
+    height: 252px;
+    border-radius: 60px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 500px;
+}
+
+.foto-psiquiatria{
+    position: relative;
+    bottom: 761.5px;
+    left: 50px;
+    display: inline-block;
+    border-radius: 60px 60px 0px 0px;
+    overflow: hidden;
+}
+
+.title-psiquiatria{
+    font-size: 24px;
+    position: relative;
+    left: 60px;
+    bottom: -35px; 
+}
+
+.fisioterapia{
+    background-image: linear-gradient(to bottom, #07b3b32e 55%, white 45%);
+    display: flex;
+    align-items: center;
+    width: 246px;
+    height: 252px;
+    border-radius: 60px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 500px;
+}
+
+.foto-fisioterapia{
+    position: relative;
+    bottom: 761.5px;
+    left: 50px;
+    display: inline-block;
+    border-radius: 60px 60px 0px 0px;
+    overflow: hidden;
+}
+
+.title-fisioterapia{
+    font-size: 24px;
+    position: relative;
+    left: 60px;
+    bottom: -35px; 
 }
