@@ -11,7 +11,6 @@
 <body>
 
 <main>
-
     <section style="display: flex; flex-direction: column; text-align: center; margin-bottom: 3%;">
 
         <article>
@@ -22,15 +21,15 @@
 
             <img src="res/svg/stock_2.svg" style="width: 90%; margin-top: 3%;">
 
-            <h1 class="r_title" style="margin-bottom:2%; margin-top: 3%; font-size: 40px;">Metas</h1>
+            <h1 class="r_title" style="margin-bottom:2%; margin-top: 3%;">Metas</h1>
 
-            <p class="m_sb" style="width: 80%; text-align: center; margin: auto;font-size: 40px;">Esto lo lograremos con esfuerzo y con dedicacion,<br> tambien gracias a tu ayuda esto puede ser realidad.</p>
+            <p class="m_sb" style="width: 80%; text-align: center; margin: auto;">Esto lo lograremos con esfuerzo y con dedicacion,<br> tambien gracias a tu ayuda esto puede ser realidad.</p>
 
-            <div class="grid_5c" style="justify-items: center; margin-top: 4%;">
+            <div class="grid_5c" style="justify-items: center; margin-top: 4%;margin-left: 3%;">
                 <p></p>
-                <div  class="img_box" style="background-image:url(res/svg/heart.svg);"></div>
-                <div  class="img_box" style="background-image:url(res/svg/happy_face.svg);"></div>
-                <div  class="img_box" style="background-image:url(res/svg/circle_up.svg);"></div>
+                <div  class="img_box" style="background-image:url(res/svg/heart.svg); width: calc(15vw);"></div>
+                <div  class="img_box" style="background-image:url(res/svg/happy_face.svg); width: calc(15vw);"></div>
+                <div  class="img_box" style="background-image:url(res/svg/circle_up.svg); width: calc(15vw);"></div>
                 <p></p>
 
             </div>
@@ -79,23 +78,34 @@
 
     </section>
 
-    <section style="display :flex; justify-content: center;">
-        <article class="c2" style="margin-bottom: 3%;">
+    <section style="display :flex; justify-content: center;margin-top: 15%;margin-bottom: 6%;">
 
-            <h1 style="text-align: center; margin-top: 1%;"><u>Contactanos</u></h1>
-            <form action="">
-                <div style="display: flex; flex-direction: column; margin-bottom: 2%;">
-                    <div style="display: flex; flex-direction: row;">
-                        <input class="input_r" style="width: 30%; margin-left: 3%; padding-bottom:4% ; margin-bottom:3%;" type="text" placeholder="  Nombre(s)">
-                        <input class="input_r" style="width: 60%; margin-left: 3%; padding-bottom:4% ; margin-bottom:3%;" type="text" placeholder="  Correo">
+        <article class="contact_us" style="width: 60%; height: auto;">
+
+            <h1 style="margin-left: 4%;font-size: calc(1rem + 2vw); margin-top: 6%; margin-bottom: 5%">Contactanos</h1>
+
+            <div>
+                <form action="" style="margin-top: 4%; margin-bottom: 2%;">
+                    <div style="display: flex; flex-direction: column;">
+                        <div style="display: flex; flex-direction: column;">
+                            <label for="" class="m_sb" style="margin-left: 4%;">Nombre Completo*</label>
+                            <input class="input_r" style="width: 92.5%; margin-left: 3%; padding-bottom:4% ;margin-bottom: 2%;" type="text" placeholder="Nombre(s)" required>
+                            <label for="" class="m_sb" style="margin-left: 4%;">Correo Electronico*</label>
+                            <input class="input_r" style="width: 92.5%; margin-left: 3%; padding-bottom:4% ; margin-bottom:3%;" type="text" placeholder="Correo" required>
+                        </div>
+                        <div style="display: flex; justify-content: left; flex-direction: column;">
+                            <div>
+                                <label for="" class="m_sb" style="margin-left: 4%;">Escribe tu Mensaje</label>
+                                <textarea class="txa_p" style="margin-left: 3%; width: 92.5%;height: 40%; border-radius: 15px;padding-top: 12%;font-family: 'MontserratM';border: 0;margin-top: 2%; text-align: center;" name="Mensaje" id="" cols="92" rows="8" placeholder=" Escribe aqui" required></textarea>
+                            <div>
+                        </div>
                     </div>
-                    <div style="display: flex; justify-content: left">
-                        <div>
-                            <textarea style="margin-left: 3%; width: 100%;height: 40%; border-radius: 15px;padding-top: 10%;font-family: 'MontserratM';" name="Mensaje" id="" cols="116" rows="10" placeholder=" Escribe tu mensaje aqui"></textarea>
-                        <div>
-                    </div>
+                    &nbsp;
+                </form>
+                <div style="text-align: center; margin-top: 2%;">
+                    <input type="button" value="Enviar" class="button_r" style="margin-bottom: 5%; text-align: center;"></input>
                 </div>
-            </form>
+            </div>
 
         </article>
 
