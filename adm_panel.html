@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administracion</title>
+    <link rel="stylesheet" href="css/adm_panel.css">
+</head>
+<body>
+    <div style="text-align: center;">
+        <label for="">ico_search_pos</label>
+        <input type="search" style="border: 0; border-bottom: 1px solid black;">
+        <label for="">filter_ico_pos</label>
+<!--         <select id="filters">
+            <option value="filter_1">opt_1</option>
+            <option value="filter_2">opt_2</option>
+            <option value="filter_3">opt_3</option>
+            <option value="filter_4">opt_4</option>
+            <option value="filter_5">opt_5</option>
+        </select> -->
+        <select name="" id="filters" style="border: 0;">
+            <optgroup label="Rangos de Edad">
+                <option value="filter_a1">0-18</option>
+                <option value="filter_a2">18-60</option>
+                <option value="filter_a3">60+</option>
+            </optgroup>
+
+            <optgroup label="Gender">
+                <option value="filter_g1">Hombre</option>
+                <option value="filter_g2">Mujer</option>
+            </optgroup>
+
+        </select>
+    </div>
+    <hr>
+        <div style="height: 50px; width: 100%;">
+
+            <div style="align-content: center;">
+                <div class="flex">
+                    <p style="margin: auto;">ID_PACIENTE</p>
+                    <p>|</p>
+                    <p style="margin: auto;">NOMBRE1 NOMBRE2 APELLIDO1 APELLIDO2</p>
+                    <p>|</p>
+                    <p style="margin: auto;">ACTIVIDAD RECIENTE</p>
+                    <p>|</p>
+                    <input class="bto" style="margin: auto; border: 0;" type="button" value="Ver Mas" src="#">
+                </div>
+
+            </div>
+
+
+        </div>
+    <hr>
+
+    <h1 style="text-align: center;">WIP</h1>
+</body>
+</html>

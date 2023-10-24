@@ -1,0 +1,10 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.bto{
+    background-color: rgba(0, 0, 0, 0);
+}
+.bto:hover{
+    background-color: aquamarine;
+}
