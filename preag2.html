@@ -82,30 +82,31 @@
 
                     <div style="display: flex; flex-direction: row; margin-bottom: 2%;">
 
-                        <input class="input_r" type="text" placeholder="Nombre(s)" required>
-                        <input  class="input_r" type="text" placeholder="Apellido(s) " style=" margin-left: 9.25%;" required>
+                        <input id="full_name" class="input_r" type="text" id="" placeholder="Nombre(s)" required>
+                        <input id="last_names" class="input_r" type="text" placeholder="Apellido(s) " style=" margin-left: 9.25%;" required>
 
                     </div>
 
                     <p class="m_title" style="margin-bottom: -1%;">CURP*</p>
-                    <input class="input_rl" type="text" placeholder="Tu CURP">
+                    <input if="curp" class="input_rl" type="text" placeholder="Tu CURP">
 
                     <p class="m_title" style="margin-bottom: -1%;">Correo*</p>
-                    <input class="input_rl" type="text" placeholder="Tu.correo@gmail.com" required>
+                    <input if="email" class="input_rl" type="email" placeholder="Tu.correo@gmail.com" required>
 
-                    <input class="input_rl" type="text" placeholder="10 digitos (618 000 0000)" required>
+                    <p class="m_title" style="margin-bottom: -1%;">Telefono*</p>
+                    <input id="tel_num" class="input_rl" type="tel" placeholder="10 digitos (618 000 0000)" required>
 
                     <p class="m_title" style="margin-bottom: -1%;">Domicilio*</p>
-                    <input class="input_rl" type="text" placeholder="Calle 123 #321, Colonia (tu direccion)" required>
+                    <input id="dir" class="input_rl" type="text" placeholder="Calle 123 #321, Colonia (tu direccion)" required>
 
                     <p class="m_title" style="margin-bottom: -1%;">Unidad Medica*</p>
-                    <input class="input_rl" type="text" placeholder="47 (tu unidad)" required>
+                    <input id="u_med" class="input_rl" type="text" placeholder="47 (tu unidad)" required>
 
                 </form>
 
                 <h1 class="m_title" style="margin-bottom: 5%; margin-top: 2%;">Al enviar tus datos aceptas<br> recibir información de Doctoralia México a través de Whatsapp.</h1>
 
-                <input type="button" value="Enviar" class="button_r" style="margin-bottom: 5%; text-align: center;text-indent: -3px;"></input>
+                <input type="submit" value="Enviar" class="button_r" style="margin-bottom: 5%; text-align: center;text-indent: -3px;"></input>
 
              </article>
 
