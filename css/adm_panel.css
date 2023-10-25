@@ -8,3 +8,10 @@
 .bto:hover{
     background-color: aquamarine;
 }
+.grid_6c{
+    display: grid;
+    grid-template-columns: 4% 22% 28% 28% 10% 4%;
+}
+.fz {
+    font-size: 10px;
+}

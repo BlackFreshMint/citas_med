@@ -8,24 +8,22 @@
 </head>
 <body>
     <div style="text-align: center;">
+
         <label for="">ico_search_pos</label>
         <input type="search" style="border: 0; border-bottom: 1px solid black;">
         <label for="">filter_ico_pos</label>
-<!--         <select id="filters">
-            <option value="filter_1">opt_1</option>
-            <option value="filter_2">opt_2</option>
-            <option value="filter_3">opt_3</option>
-            <option value="filter_4">opt_4</option>
-            <option value="filter_5">opt_5</option>
-        </select> -->
+
         <select name="" id="filters" style="border: 0;">
+
+            <option value="NULL">FILTROS</option>
+
             <optgroup label="Rangos de Edad">
                 <option value="filter_a1">0-18</option>
                 <option value="filter_a2">18-60</option>
                 <option value="filter_a3">60+</option>
             </optgroup>
 
-            <optgroup label="Gender">
+            <optgroup label="Sexo">
                 <option value="filter_g1">Hombre</option>
                 <option value="filter_g2">Mujer</option>
             </optgroup>
@@ -33,17 +31,28 @@
         </select>
     </div>
     <hr>
-        <div style="height: 50px; width: 100%;">
+    <div style="height: 1%; width: 100%;">
+        <div class="grid_6c" style="height: 20px; width: 100%;margin-top: -1%; grid-template-columns: 12% 21% 21% 27% 21% 6%;">
+            <p></p>
+            <p class="fz">#ID</p>
+            <p class="fz">NOMBRE DEL PACIENTE</p>
+            <p class="fz">ACTIVIDAD RECIENTE</p>
+            <p class="fz">M INFORMACION(BOTON)</p>
+            <p></p>
+        </div>
+    </div>
 
+    <hr>
+        </div>
             <div style="align-content: center;">
-                <div class="flex">
-                    <p style="margin: auto;">ID_PACIENTE</p>
-                    <p>|</p>
-                    <p style="margin: auto;">NOMBRE1 NOMBRE2 APELLIDO1 APELLIDO2</p>
-                    <p>|</p>
-                    <p style="margin: auto;">ACTIVIDAD RECIENTE</p>
-                    <p>|</p>
-                    <input class="bto" style="margin: auto; border: 0;" type="button" value="Ver Mas" src="#">
+
+                <div class="grid_6c" style="width: 100%; text-align: center;">
+                    <p></p>
+                    <p>ID_PACIENTE</p>
+                    <p>NOMBRE1 NOMBRE2 APELLIDO1 APELLIDO2</p>
+                    <p>ACTIVIDAD RECIENTE</p>
+                    <input class="bto" style="margin: auto; border: 0;" type="button" value="BOTON" src="#">
+                    <p></p>
                 </div>
 
             </div>
@@ -52,6 +61,5 @@
         </div>
     <hr>
 
-    <h1 style="text-align: center;">WIP</h1>
 </body>
 </html>
