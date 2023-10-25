@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+    <?php include 'nav3.html'?>
 <main>
 
     <section style="display: flex; flex-direction: row;">
@@ -139,6 +139,8 @@
     </section>
 
 </main>
+
+    <?php include 'footer.html'?>
 
 </body>
 

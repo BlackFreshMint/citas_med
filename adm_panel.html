@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel de Administracion</title>
     <link rel="stylesheet" href="css/adm_panel.css">
+    <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
+
+<main>
     <div style="text-align: center;">
 
-        <label for="">ico_search_pos</label>
-        <input type="search" style="border: 0; border-bottom: 1px solid black;">
-        <label for="">filter_ico_pos</label>
+        <label for=""><img src="res/svg/search_ico2.svg" style="width: 2%; height: 2%; fill: black;"></label>
+        <input class="bar" type="search" placeholder="Buscar..." style="border: 0; border-bottom: 1px solid black; width: 40%;">
+        <label for=""><img src="res/svg/filter-solid.svg" style="width: 2%;"></label>
 
-        <select name="" id="filters" style="border: 0;">
+        <select class="bar" name="" id="filters" style="border: 0;">
 
-            <option value="NULL">FILTROS</option>
+            <option value="NULL">Filtros</option>
 
             <optgroup label="Rangos de Edad">
                 <option value="filter_a1">0-18</option>
@@ -48,9 +51,9 @@
 
                 <div class="grid_6c" style="width: 100%; text-align: center;">
                     <p></p>
-                    <p>ID_PACIENTE</p>
-                    <p>NOMBRE1 NOMBRE2 APELLIDO1 APELLIDO2</p>
-                    <p>ACTIVIDAD RECIENTE</p>
+                    <p class="patient_inf">ID_PACIENTE</p>
+                    <p class="patient_inf">NOMBRE1 NOMBRE2 APELLIDO1 APELLIDO2</p>
+                    <p class="patient_inf">ACTIVIDAD RECIENTE</p>
                     <input class="bto" style="margin: auto; border: 0;" type="button" value="BOTON" src="#">
                     <p></p>
                 </div>
@@ -60,6 +63,8 @@
 
         </div>
     <hr>
+
+</main>
 
 </body>
 </html>
