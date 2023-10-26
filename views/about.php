@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CIMEC</title>
-    <link rel="icon" type="type/x-icon" href="res/svg/cimec_logo.svg">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="type/x-icon" href="../res/svg/cimec_logo.svg">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
 
@@ -21,7 +21,7 @@
 
             <p class="m_sub_s" style="width: 60%; text-align: center; margin: auto;"><strong>Equipo de trabajo medico enfocado en su bienestar<br> con una de las mejores tecnologias y especialistas <br>para brindarle una vida saludable.</strong></p>
 
-            <img src="res/svg/stock_2.svg" style="width: 90%; margin-top: 3%;">
+            <img src="../res/svg/stock_2.svg" style="width: 90%; margin-top: 3%;">
 
             <h1 class="r_title" style="margin-bottom:2%; margin-top: 3%;">Metas</h1>
 
@@ -29,9 +29,9 @@
 
             <div class="grid_5c" style="justify-items: center; margin-top: 4%;margin-left: 3%;">
                 <p></p>
-                <div  class="img_box" style="background-image:url(res/svg/heart.svg); width: calc(15vw);"></div>
-                <div  class="img_box" style="background-image:url(res/svg/happy_face.svg); width: calc(15vw);"></div>
-                <div  class="img_box" style="background-image:url(res/svg/circle_up.svg); width: calc(15vw);"></div>
+                <div  class="img_box" style="background-image:url(../res/svg/heart.svg); width: calc(15vw);"></div>
+                <div  class="img_box" style="background-image:url(../res/svg/happy_face.svg); width: calc(15vw);"></div>
+                <div  class="img_box" style="background-image:url(../res/svg/circle_up.svg); width: calc(15vw);"></div>
                 <p></p>
 
             </div>
@@ -59,7 +59,7 @@
 
                 <p></p>
                 <p class="text_box"><strong>Responsabilidad.</strong><br> Este valor nos hace hacer las cosas con la moyor calidad posible, para poder conseguir la satisfaccion de nuestro cliente.</p>
-                <img class="img_az" src="/res/svg/hand_sparks.svg">
+                <img class="img_az" src="../res/svg/hand_sparks.svg">
                 <p class="text_box"><strong>Flexibilidad.</strong><br> Sabemos que hay situaciones dificiles, por eso somos flexibles con nuestros clientes intentando entender la situacion actual del mismo.</p>
 
                 <p></p>
@@ -69,9 +69,9 @@
             align-items: center;">
 
                 <p></p>
-                <img class="img_az" src="res/svg/handshake.svg">
+                <img class="img_az" src="../res/svg/handshake.svg">
                 <p class="text_box"><strong>Trasparencia.</strong><br> La confianza se forja con la honestidad, nosotros somos lo mas transparente con nuestros clientes, ya que queremos formar esa confianza en las personas.</p>
-                <img class="img_az" src="res/svg/people_group.svg">
+                <img class="img_az" src="../res/svg/people_group.svg">
                 <p></p>
 
             </div>
