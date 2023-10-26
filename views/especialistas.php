@@ -1,9 +1,14 @@
+<?php session_start();
+if (!isset($_SESSION['username'])) {
+    header("location:../index.html");
+    exit();
+} ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\especialistas.css">
+    <link rel="stylesheet" href="../css/especialistas.css">
     <title>Especialistas</title>
 </head>
 <body>
@@ -21,7 +26,7 @@
                 </h1>
             </figure>
             <div class="foto-anestesiologia">
-                <img src="res\img\anestesiologia.jpg" alt="Anestesiología" width="225" height="132">
+                <img src="..\res\img\anestesiologia.jpg" alt="Anestesiología" width="225" height="132">
             </div>
             <p class="text-anestesiologia">
                 Anestesia general
@@ -34,7 +39,7 @@
                 </h1>
             </figure>
             <div class="foto-endocrinologia">
-                <img src="res\img\endocrinologia.jpg" alt="Endocrinología" width="225" height="132">
+                <img src="../res\img\endocrinologia.jpg" alt="Endocrinología" width="225" height="132">
             </div>
             <p class="text-endocrinologia">
                 Trastornos metabólicos <br> y hormonales
@@ -47,7 +52,7 @@
                 </h1>
             </figure>
             <div class="foto-hematologia">
-                <img src="res\img\hematologia.jpg" alt="Hematología" width="225" height="132">
+                <img src="..\res\img\hematologia.jpg" alt="Hematología" width="225" height="132">
             </div>
             <p class="text-hematologia">
                 Trastornos por sangre
@@ -60,7 +65,7 @@
                 </h1>
             </figure>
             <div class="foto-nefrologia">
-                <img src="res\img\nefrologia.jpg" alt="Nefrología" width="225" height="132">
+                <img src="..\res\img\nefrologia.jpg" alt="Nefrología" width="225" height="132">
             </div>
             <p class="text-nefrologia">
                 Trastornos renales
@@ -104,7 +109,7 @@
                 </h1>
             </figure>
             <div class="foto-cardiologia">
-                <img src="res\img\cardiolodia.jpg" alt="Cardiología" width="225" height="132">
+                <img src="..\res\img\cardiolodia.jpg" alt="Cardiología" width="225" height="132">
             </div>
             <p class="text-cardiologia">
                 Trastornos del corazón
@@ -117,7 +122,7 @@
                 </h1>
             </figure>
             <div class="foto-gastroenterologia">
-                <img src="res\img\gastroenterologia.jpg" alt="Gastroenterología" width="225" height="132">
+                <img src="..\res\img\gastroenterologia.jpg" alt="Gastroenterología" width="225" height="132">
             </div>
             <p class="text-gastroenterologia">
                 Trastornos al aparato <br> digestivo
@@ -130,7 +135,7 @@
                 </h1>
             </figure>
             <div class="foto-inmunologia">
-                <img src="res\img\inmunologia.jpg" alt="Inmunología" width="225" height="132">
+                <img src="..\res\img\inmunologia.jpg" alt="Inmunología" width="225" height="132">
             </div>
             <p class="text-inmunologia">
                 Trastornos al sistema <br> inmunitario
@@ -143,7 +148,7 @@
                 </h1>
             </figure>
             <div class="foto-neurologia">
-                <img src="res\img\neurologia.jpg" alt="Neurología" width="225" height="132">
+                <img src="..\res\img\neurologia.jpg" alt="Neurología" width="225" height="132">
             </div>
             <p class="text-neurologia">
                 Trastornos al sistema <br>
@@ -188,7 +193,7 @@
                 </h1>
             </figure>
             <div class="foto-dermatologia">
-                <img src="res\img\dermatologia.jpg" alt="Dermatologia" width="225" height="132">
+                <img src="..\res\img\dermatologia.jpg" alt="Dermatologia" width="225" height="132">
             </div>
             <p class="text-dermatologia">
                 Trastornos de la piel
@@ -201,7 +206,7 @@
                 </h1>
             </figure>
             <div class="foto-cirugia">
-                <img src="res\img\cirugia.jpg" alt="Cirugía general" width="225" height="132">
+                <img src="..\res\img\cirugia.jpg" alt="Cirugía general" width="225" height="132">
             </div>
             <p class="text-cirugia">
                 Cirugías a cualquier <br> parte del cuerpo
@@ -214,7 +219,7 @@
                 </h1>
             </figure>
             <div class="foto-infecciones">
-                <img src="res\img\infecciones.jpg" alt="Infecciones" width="225" height="132">
+                <img src="..\res\img\infecciones.jpg" alt="Infecciones" width="225" height="132">
             </div>
             <p class="text-infecciones">
                 Infecciones en el sistema <br> del organismo
@@ -227,7 +232,7 @@
                 </h1>
             </figure>
             <div class="foto-ginecologia">
-                <img src="res\img\ginecologia.jpg" alt="Ginecología" width="225" height="132">
+                <img src="..\res\img\ginecologia.jpg" alt="Ginecología" width="225" height="132">
             </div>
             <p class="text-ginecologia">
                 Aparato reproductor <br>
