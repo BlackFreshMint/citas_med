@@ -9,6 +9,8 @@
 </head>
 <body>
 
+<?php include 'nav3.php'?>
+
 <main>
     <div style="text-align: center;">
 
@@ -65,6 +67,8 @@
     <hr>
 
 </main>
+
+    <?php include 'footer.php'?>
 
 </body>
 </html>

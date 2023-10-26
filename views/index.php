@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body style="background-image: url(res/img/background.jpg);">
+
+<?php include 'footer.php'?>
+
     <div id="about">
 
         <div class="container">
@@ -28,9 +31,9 @@
     </div>
 
     <div id="citas">
-        
+
         <div class="container">
-            
+
             <div class="left">
                 <img src="res/img/doctor2.png" alt="doctor2">
             </div>
@@ -63,5 +66,8 @@
             </div>
         </div>
     </div>
+
+    <?php include 'footer.php'?>
+
 </body>
 </html>

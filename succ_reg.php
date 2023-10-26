@@ -9,6 +9,8 @@
 </head>
 <body>
 
+<?php include 'nav3.php'?>
+
 <main>
 
     <div class="c" style="width: 70%; height: fit-content;">
@@ -17,6 +19,8 @@
     </div>
 
 </main>
+
+    <?php include 'footer.php'?>
 
 </body>
 </html>

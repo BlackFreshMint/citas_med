@@ -10,6 +10,8 @@
 </head>
 <body>
 
+<?php include 'nav3.php'?>
+
 <main>
     <section style="display: flex; flex-direction: column; text-align: center; margin-bottom: 3%;">
 
@@ -112,6 +114,8 @@
     </section>
 
 </main>
+
+    <?php include 'footer.php'?>
 
 </body>
 
