@@ -8,7 +8,7 @@
 </head>
 <body style="background-image: url(res/img/background.jpg);">
 
-<?php include 'footer.php'?>
+<?php include 'views/footer.php'?>
 
     <div id="about">
 
@@ -67,7 +67,7 @@
         </div>
     </div>
 
-    <?php include 'footer.php'?>
+    <?php include 'views/footer.php'?>
 
 </body>
 </html>
