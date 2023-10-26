@@ -1,6 +1,6 @@
 <?php session_start();
 if (!isset($_SESSION['username'])) {
-    header("location:../index.html");
+    header("location:../index.php");
     exit();
 } ?>
 <!DOCTYPE html>

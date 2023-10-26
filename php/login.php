@@ -36,7 +36,7 @@ if ($result -> num_rows > 0){
     exit;
 }
 else{
-    echo "inicio fallo. <a href ='../index.html'> INTENTELO DE NUEVO</a>";
+    echo "inicio fallo. <a href ='../index.php'> INTENTELO DE NUEVO</a>";
     exit;
 }
 $conn ->close();
