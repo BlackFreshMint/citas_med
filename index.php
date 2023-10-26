@@ -8,7 +8,7 @@
 </head>
 <body style="background-image: url(res/img/background.jpg);">
 
-<?php include 'views/footer.php'?>
+<?php include 'views/nav3.php'?>
 
     <div id="about">
 

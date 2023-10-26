@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CIMEC</title>
-    <link rel="icon" type="type/x-icon" href="res/svg/cimec_logo.svg">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="type/x-icon" href="../res/svg/cimec_logo.svg">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
@@ -26,27 +26,27 @@
                     <div style="display: flex; flex-direction: column;">
 
                         <div style="display: flex; flex-direction: row;">
-                            <img src="res/svg/circle_check.svg" style="width: 6%; margin-top: -14%;">
+                            <img src="../res/svg/circle_check.svg" style="width: 6%; margin-top: -14%;">
                             <p class="m_sub" style="margin-left: 2%;">Cada vez más pacientes <em>en<br> México usan CIMEC para<br> seguimiento a sus citas</em></p>
                         </div>
 
                         <div style="display: flex; flex-direction: row;">
-                            <img src="res/svg/circle_check.svg" style="width: 6%; margin-top: -14%;">
+                            <img src="../res/svg/circle_check.svg" style="width: 6%; margin-top: -14%;">
                             <p class="m_sub" style="margin-left: 2%;"><em>+ 800K citas mensuales <br>agendadas en CIMEC en México</em></p>
                         </div>
 
                         <div style="display: flex; flex-direction: row;">
-                            <img src="res/svg/circle_check.svg" style="width: 6%; margin-top: -14%;">
+                            <img src="../res/svg/circle_check.svg" style="width: 6%; margin-top: -14%;">
                             <p class="m_sub" style="margin-left: 2%;">Gestión de agenda con <em>notificaciones automatizadas</em> y personalizables a sus pacientes.</p>
                         </div>
 
                         <div style="display: flex; flex-direction: row;">
-                            <img src="res/svg/circle_check.svg" style="width: 6%; margin-top: -14%;">
+                            <img src="../res/svg/circle_check.svg" style="width: 6%; margin-top: -14%;">
                             <p class="m_sub" style="margin-left: 2%;">Permita que lo agenden desde <br>redes sociales, su página web, enlaces personalizados y desde <br>la app y web de Doctoralia.</p>
                         </div>
 
                         <div style="display: flex; flex-direction: row;">
-                            <img src="res/svg/circle_check.svg" style="width: 6%; margin-top: -14%;">
+                            <img src="../res/svg/circle_check.svg" style="width: 6%; margin-top: -14%;">
                             <p class="m_sub" style="margin-left: 2%;">Posiciones más altas en los resultados de búsqueda de Doctoralia</p>
                         </div>
 
@@ -54,7 +54,7 @@
 
                     </div>
 
-                <img src="res/svg/stock_1.svg" style="margin-left: 8%; width: 70%; height: 70%;">
+                <img src="../res/svg/stock_1.svg" style="margin-left: 8%; width: 70%; height: 70%;">
 
             </article>
 
