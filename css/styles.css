@@ -1,5 +1,7 @@
-@media(min-width:420px){}
-
+@media(min-width:390px){}
+    #about img{
+        display: none;
+    }
 @media(max-width:1366px){
 body {
     margin: 0;
