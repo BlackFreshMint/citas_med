@@ -22,7 +22,7 @@
 
                 <div class="buttons">
                     <a href="#" class="button si" id="siButton">Si</a>
-                    <a href="views/preag2.php" class="button no">No</a>
+                    <a href="preag2.php" class="button no">No</a>
                 </div>
             </div>
         </div>
