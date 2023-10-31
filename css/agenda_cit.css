@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    align-items: flex-start;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #212121;
+    margin-bottom: 2rem;
+}
+
+.button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.button_enviar {
+    font-size: 1.2rem;
+    padding: 5px 50px;
+    color: #0000002e;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid transparent; /* Agrega un borde transparente para la transición */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+    
+}
+
+.button_enviar:hover {
+    background-color: #07b3b32e; /* Color de fondo al pasar el mouse */
+}
+
+.si {
+    background-color: #333;
+}
+
+.si:hover {
+    background-color: #555;
+}
+
+.no {
+    background-color: #333;
+}
+
+.no:hover {
+    background-color: #555;
+}
+
+.agenda {
+    background-color: #07b3b32e;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.pregunta {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    background-color: #EEEEEE;
+    width: 1080px;
+    animation: fade-in 0.5s ease; /* Aplica la animación al mostrar */
+    transition: all 0.9s ease; /* Transición suave para otros cambios */
+}
+
+.pregunta2 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #73B3B3;
+    border-radius: 30px;
+    background-color: #07b3b32e; /* Fondo personalizado para "pregunta2" */
+    transition: all 0.3s ease;
+    
+}
+
+#CUENTA {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 25px;
+}
+.styled-input {
+    width: 400px; /* Ancho personalizado */
+    padding: 10px; /* Relleno interno */
+    border: 1px solid #ccc; /* Borde personalizado */
+    border-radius: 30px; /* Radio de esquinas personalizado */
+    font-size: 20px; /* Tamaño de fuente personalizado */
+    transition: border 0.3s ease;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
