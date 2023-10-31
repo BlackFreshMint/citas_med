@@ -88,10 +88,10 @@
                     </div>
 
                     <p class="m_title" id="form_sub" style="margin-bottom: -1%;">CURP*</p>
-                    <input if="curp" class="input_rl" type="text" placseholder="Tu CURP" required>
+                    <input id="curp" class="input_rl" type="text" placeholder="Tu CURP" required>
 
                     <p class="m_title" id="form_sub" style="margin-bottom: -1%;">Correo*</p>
-                    <input if="email" class="input_rl" type="email" placeholder="Tu.correo@gmail.com" required>
+                    <input id="email" class="input_rl" type="email" placeholder="Tu.correo@gmail.com" required>
 
                     <p class="m_title" id="form_sub" style="margin-bottom: -1%;">Telefono*</p>
                     <input id="tel_num" class="input_rl" type="tel" placeholder="10 digitos (618 000 0000)" required>
@@ -128,7 +128,7 @@
 
                     <P class="m_sub" style="font-size: x-large; text-align: center; margin: 0 auto;">Solicite más información y contacte con nuestros<br> asesores especializados.</P>
 
-                    <button class="button_r" style="margin-top: 4%; background-color: #18AA52; padding-bottom: 3%; padding-top: 1.5%; width: 30%;text-indent: 2px;">Más<img src="../res/svg/arrow.svg" style="height: 20%; width: 20%; margin-left: 6%; margin-bottom: -5%; text-align: center;"></button>
+                    <button class="button_r" style="margin-top: 4%; background-color: #18AA52; padding-bottom: 2.5%; padding-top: 1%; width: 30%;text-indent: 2px;">Más<img src="../res/svg/arrow.svg" style="height: 20%; width: 20%; margin-left: 6%; margin-bottom: -5%; text-align: center;"></button>
 
                 </div>
             </div>
