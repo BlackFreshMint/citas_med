@@ -102,11 +102,11 @@
                     <p class="m_title" id="form_sub" style="margin-bottom: -1%;">Unidad Medica*</p>
                     <input id="u_med" class="input_rl" type="text" placeholder="47 (tu unidad)" required>
 
+                    <h1 class="m_title" id="form_sub" style="margin-bottom: 5%; margin-top: 2%;margin-left:-.5%;">Al enviar tus datos aceptas<br> recibir información de Doctoralia México a través de Whatsapp.</h1>
+
+                    <input type="submit" value="Enviar" class="button_r" style="margin-bottom: 5%; text-align: center;text-indent: -3px;margin-left:20%;"></input>
+
                 </form>
-
-                <h1 class="m_title" id="form_sub" style="margin-bottom: 5%; margin-top: 2%;">Al enviar tus datos aceptas<br> recibir información de Doctoralia México a través de Whatsapp.</h1>
-
-                <input type="submit" value="Enviar" class="button_r" style="margin-bottom: 5%; text-align: center;text-indent: -3px;"></input>
 
              </article>
 
@@ -128,7 +128,7 @@
 
                     <P class="m_sub" style="font-size: x-large; text-align: center; margin: 0 auto;">Solicite más información y contacte con nuestros<br> asesores especializados.</P>
 
-                    <button class="button_r" style="margin-top: 4%; background-color: #18AA52; padding-bottom: 2.5%; padding-top: 1%; width: 30%;text-indent: 2px;">Más<img src="../res/svg/arrow.svg" style="height: 20%; width: 20%; margin-left: 6%; margin-bottom: -5%; text-align: center;"></button>
+                    <a href="about.php" style="background-color:rgba(0,0,0,0);"><button class="button_r" style="margin-top: 4%; background-color: #18AA52; padding-bottom: 2.5%; padding-top: 1%; width: 30%;text-indent: 2px;">Más<img src="../res/svg/arrow.svg" style="height: 20%; width: 20%; margin-left: 6%; margin-bottom: -5%; text-align: center;"></button></a>
 
                 </div>
             </div>

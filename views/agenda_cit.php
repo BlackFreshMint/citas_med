@@ -13,7 +13,7 @@
     <div class="container">
        <?php include 'nav3.php'?>
         <div class="agenda">
-            <h1 class="title">Agenda Tu Cita</h1>
+            <h1 class="title" style="margin: 0;">Agenda Tu Cita</h1>
         </div>
         <div class="pregunta2" id="CUENTA">
             <p>CUENTA</p>

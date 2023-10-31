@@ -6,7 +6,7 @@
     <title>index</title>
     <link rel="stylesheet" href="../css/index.css">
 </head>
-<body style="background-image: url(res/img/background.jpg);">
+<body style="background-image: url(../res/img/background.jpg);">
 
 <?php include 'nav3.php'?>
 
@@ -42,9 +42,9 @@
                 <h1>Agendar Citas</h1>
                 <img src="../res/img/fondo2.png" alt="sub-green">
                 <p>Aqui podras agedar tus citas, asi como ver las que ya tienes programada no dudes en entrar y generar tu cita, nuestro sistema lo permite</p>
-    
+
                 <div class="bot">
-                    <a href="../agenda_cit.php">
+                    <a href="../views/agenda_cit.php">
                     AGENDAR
                     </a>
                     <button class="mycit">MIS CITAS</button>

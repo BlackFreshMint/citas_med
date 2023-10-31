@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body>
+<body >
 
 <?php include 'nav3.php'?>
 
-<main>
+<main style="background-image: url(../res/img/background.jpg); background-repeat:repeat;">
     <section style="display: flex; flex-direction: column; text-align: center; margin-bottom: 3%;">
 
         <article>
@@ -80,7 +80,7 @@
 
     </section>
 
-    <section style="display :flex; justify-content: center;margin-top: 15%;margin-bottom: 6%;">
+    <section style="display :flex; justify-content: center;margin-top: 15%;padding-bottom: 6%;">
 
         <article class="contact_us" style="width: 60%; height: auto;">
 
