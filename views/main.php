@@ -42,8 +42,11 @@
                 <h1>Agendar Citas</h1>
                 <img src="../res/img/fondo2.png" alt="sub-green">
                 <p>Aqui podras agedar tus citas, asi como ver las que ya tienes programada no dudes en entrar y generar tu cita, nuestro sistema lo permite</p>
+    
                 <div class="bot">
-                    <button class="agen">AGENDAR</button>
+                    <a href="../agenda_cit.php">
+                    AGENDAR
+                    </a>
                     <button class="mycit">MIS CITAS</button>
                 </div>
             </div>
