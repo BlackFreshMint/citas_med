@@ -19,7 +19,7 @@
                 <img src="../res/img/fondo1.png" alt="sub-blue">
                 <p>Tu salud es lo mas importante para nosotros, estas en las mejores manos con los mejores doctores y especialistas</p>
 
-                <button>MÁS<img src="../res/img/icono1.png" alt="arrow-right" class="img-log"></button>
+                <button>MÁS<img src="../res/svg/arrow.svg" alt="arrow-right" class="img-log"></button>
             </div>
 
             <div class="right">
@@ -59,7 +59,7 @@
                 <img src="../res/img/fondo3.png" alt="sub-red" class="im-sub">
                 <p>Consulta la informacion necesaria acerca de nuestros especialistas y las tareas que realizan dia a dia.</p>
 
-                <button>MÁS <img src="../res/img/icono2.png" alt="arrow-right" class="im-but"></button>
+                <button>MÁS <img src="../res/svg/arrow.svg" alt="arrow-right" class="im-but"></button>
             </div>
             <div class="right">
                 <img src="../res/img/doctor3.png" alt="doctor3">
