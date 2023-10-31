@@ -54,7 +54,7 @@
 
                     </div>
 
-                <img src="../res/svg/stock_1.svg" style="margin-left: 8%; width: 70%; height: 70%;">
+                <img src="../res/svg/stock_1.svg" id="stock" style="margin-left: 8%; width: 70%; height: 70%;">
 
             </article>
 
@@ -88,7 +88,7 @@
                     </div>
 
                     <p class="m_title" style="margin-bottom: -1%;">CURP*</p>
-                    <input if="curp" class="input_rl" type="text" placeholder="Tu CURP" required>
+                    <input if="curp" class="input_rl" type="text" placseholder="Tu CURP" required>
 
                     <p class="m_title" style="margin-bottom: -1%;">Correo*</p>
                     <input if="email" class="input_rl" type="email" placeholder="Tu.correo@gmail.com" required>
@@ -128,7 +128,7 @@
 
                     <P class="m_sub" style="font-size: x-large; text-align: center; margin: 0 auto;">Solicite más información y contacte con nuestros<br> asesores especializados.</P>
 
-                    <button class="button_r" style="margin-top: 4%; background-color: #18AA52; padding-bottom: 2%; padding-top: 1.5%; width: 30%; font-size: 28px; text-indent: 2px;">MÁS<img src="res/svg/arrow.svg" style="height: 20%; width: 20%; margin-left: 6%; margin-bottom: -5%; text-align: center;"></button>
+                    <button class="button_r" style="margin-top: 4%; background-color: #18AA52; padding-bottom: 2%; padding-top: 1.5%; width: 30%; font-size: 28px; text-indent: 2px;">MÁS<img src="../res/svg/arrow.svg" style="height: 20%; width: 20%; margin-left: 6%; margin-bottom: -5%; text-align: center;"></button>
 
                 </div>
             </div>

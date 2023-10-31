@@ -8,20 +8,21 @@
     <title>nav</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-
-            <p class="logo"><img src="../res/svg/cimec_logo.svg" alt="logo"></p>
-
-            <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Agendar Cita</a>
-                <a href="#">Especialidades</a>
-                <a href="#">Acerca de</a>
-                <a href="" class="ico"><img src="../res/svg/search_ico.svg" alt="search" class="icon"></a>
-            </nav>
-
-        </div>
-    </header>
+    <div id="head">
+        <header>
+            <div class="container">
+    
+                <p class="logo"><img src="../res/svg/cimec_logo.svg" alt="logo"></p>
+    
+                <nav>
+                    <a href="#">Inicio</a>
+                    <a href="#">Agendar Cita</a>
+                    <a href="#">Especialidades</a>
+                    <a href="#" class="ico">Acerca de</a>
+                </nav>
+    
+            </div>
+        </header>
+    </div>
 </body>
 </html>

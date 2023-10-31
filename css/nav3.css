@@ -3,78 +3,75 @@
 }
 body{
     margin: 0;
-    font-family: "MontserratEB";
-    font-weight: bold;
-    font-size: x-large;
-    text-align: center;
 }
 
-header{
+#head header{
     background-color: #07B3B3;
 }
 
-.container{
-    max-width: 1400px;
-    margin: auto;
-}
-
-header .container{
+#head .container{
+    margin: 0px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-header .logo{
-    display: flex;
-    flex-direction: column;
+#head .container p{
+    margin: 10px 0px;
+}
+
+#head .container img{
     margin: 0;
-    padding: 10px 10px;
-    width: 100px;
+    width: 80px;
 }
 
-header nav{
+#head .container nav{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    padding-bottom: 10px;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
-header a{
-    padding: 5px 10px;
+#head .container a{
     text-decoration: none;
+    font-family: 'MontserratEB';
     color: white;
+    font-size: 1.4em;
+    padding: 0px 10px 5px 10px;
+    border-radius: 60px;
 }
 
-header a:hover{
+#head .container a:hover{
     background-color: #048484
 }
 
-header .icon{
-    width: 31px;
-    height: auto;
-}
+@media (min-width:1000px){
 
-header .ico{
-
-}
-
-@media (min-width:800px){
-    header .container{
+    #head .container{
+        max-width: 1400px;
+        margin: auto;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    header nav{
+    #head .container img{
+        width: 100px;
+    }
+
+    #head .container nav{
         flex-direction: row;
-        padding: 0;
+        margin: 0;
     }
 
-    header a{
-        border-right: solid white 3px;
+    #head .container a{
+        padding: 0px 8px;
+        border-radius: 0;
+        border-right: solid white;
         height: 40px;
+        font-size: 2.0em;
     }
 
-    header .ico{
-        border-right: none
+    #head .container .ico{
+        border-right: none;
     }
 }
