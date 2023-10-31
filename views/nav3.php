@@ -11,16 +11,16 @@
     <div id="head">
         <header>
             <div class="container">
-    
+
                 <p class="logo"><img src="../res/svg/cimec_logo.svg" alt="logo"></p>
-    
+
                 <nav>
-                    <a href="main.php">Inicio</a>
-                    <a href="../agenda_cit.php">Agendar Cita</a>
-                    <a href="especialistas.php">Especialidades</a>
-                    <a href="about.php" class="ico">Acerca de</a>
+                    <a href="../views/main.php">Inicio</a>
+                    <a href="../views/agenda_cit.php">Agendar Cita</a>
+                    <a href="../views/especialistas.php">Especialidades</a>
+                    <a href="../views/about.php" class="ico">Acerca de</a>
                 </nav>
-    
+
             </div>
         </header>
     </div>
