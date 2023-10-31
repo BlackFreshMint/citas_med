@@ -20,6 +20,7 @@ if (!isset($_SESSION['username'])) {
         <div class="column-left">
 
             <!--Boton anestesiologia-->
+            <a href="calendario.php" target="_blank" >
             <figure class="anestesiologia">
                 <h1 class="title-anestesiologia">
                     Anestesiología
@@ -33,6 +34,7 @@ if (!isset($_SESSION['username'])) {
             </p>
 
             <!--Boton endocrinologia-->
+            <a href="calendario.php" target="_blank" >
             <figure class="endocrinologia">
                 <h1 class="title-endocrinologia">
                     Endocrinología
@@ -46,6 +48,7 @@ if (!isset($_SESSION['username'])) {
             </p>
 
             <!--Boton hematologia-->
+                <a href="calendario.php" target="_blank" >
             <figure class="hematologia">
                 <h1 class="title-hematologia">
                     Hematología
@@ -59,6 +62,7 @@ if (!isset($_SESSION['username'])) {
             </p>
 
             <!--Boton nefrologia-->
+                <a href="calendario.php" target="_blank" >
             <figure class="nefrologia">
                 <h1 class="title-nefrologia">
                     Nefrología
@@ -70,39 +74,13 @@ if (!isset($_SESSION['username'])) {
             <p class="text-nefrologia">
                 Trastornos renales
             </p>
-
-            <!--Boton oncologia
-            <figure class="oncologia">
-                <h1 class="title-oncologia">
-                    Oncología
-                </h1>
-            </figure>
-            <div class="foto-oncologia">
-                <img src="res\img\oncologia.jpg" alt="Oncología" width="225" height="132">
-            </div>
-            <p class="text-oncologia">
-                Anestesia general
-            </p>-->
-
-            <!--Boton otorrinolaringologia
-            <figure class="otorrinolaringologia">
-                <h1 class="title-otorrinolaringologia">
-                    Otorrinolaringología
-                </h1>
-            </figure>
-            <div class="foto-otorrinolaringologia">
-                <img src="res\img\otorrinolaringologia.jpg" alt="Otorrinolaringología" width="225" height="132">
-            </div>
-            <p class="text-otorrinolaringologia">
-                Anestesia general
-            </p>-->
-
         </div>
 
         <!--Columna del centro-->
         <div class="column-center">
 
             <!--Boton cardiologia-->
+            <a href="calendario.php" target="_blank" >
             <figure class="cardiologia">
                 <h1 class="title-cardiologia">
                     Cardiología
@@ -116,6 +94,7 @@ if (!isset($_SESSION['username'])) {
             </p>
 
             <!--Boton gastroenterologia-->
+                <a href="calendario.php" target="_blank" >
             <figure class="gastroenterologia">
                 <h1 class="title-gastroenterologia">
                     Gastroenterología
@@ -129,6 +108,7 @@ if (!isset($_SESSION['username'])) {
             </p>
 
             <!--Boton inmunologia-->
+                <a href="calendario.php" target="_blank" >
             <figure class="inmunologia">
                 <h1 class="title-inmunologia">
                     Inmunología
@@ -142,6 +122,7 @@ if (!isset($_SESSION['username'])) {
             </p>
 
             <!--Boton neurologia-->
+                <a href="calendario.php" target="_blank" >
             <figure class="neurologia">
                 <h1 class="title-neurologia">
                     Neurología
@@ -155,38 +136,13 @@ if (!isset($_SESSION['username'])) {
                 nervioso
             </p>
 
-            <!--Boton Oftalmología
-            <figure class="oftalmologia">
-                <h1 class="title-oftalmologia">
-                    Oftalmología
-                </h1>
-            </figure>
-            <div class="foto-oftalmologia">
-                <img src="res\img\oftalmologia.jpg" alt="Oftalmología" width="225" height="132">
-            </div>
-            <p class="text-oftalmologia">
-                Anestesia general
-            </p>-->
-
-            <!--Boton psiquiatria
-            <figure class="psiquiatria">
-                <h1 class="title-psiquiatria">
-                    Psiquiatría
-                </h1>
-            </figure>
-            <div class="foto-psiquiatria">
-                <img src="res\img\psioterapia.jpg" alt="Psiquiatría" width="225" height="132">
-            </div>
-            <p class="text-psiquiatria">
-                Anestesia general
-            </p>-->
-
         </div>
 
         <!--Columna del lado derecho-->
         <div class="column-right">
 
             <!--Boton dermatologia-->
+            <a href="calendario.php" target="_blank" >
             <figure class="dermatologia">
                 <h1 class="title-dermatologia">
                     Dermatología
@@ -200,6 +156,7 @@ if (!isset($_SESSION['username'])) {
             </p>
 
             <!--Boton cirugia general-->
+                <a href="calendario.php" target="_blank" >
             <figure class="cirugia-general">
                 <h1 class="title-cirugia">
                     Cirugía general
@@ -213,6 +170,7 @@ if (!isset($_SESSION['username'])) {
             </p>
 
             <!--Boton infecciones-->
+                    <a href="calendario.php" target="_blank" >
             <figure class="infecciones">
                 <h1 class="title-infecciones">
                     Infecciones
@@ -226,6 +184,7 @@ if (!isset($_SESSION['username'])) {
             </p>
 
             <!--Boton ginecologia-->
+                    <a href="calendario.php" target="_blank" >
             <figure class="ginecologia">
                 <h1 class="title-ginecologia">
                     Ginecología
@@ -239,31 +198,6 @@ if (!isset($_SESSION['username'])) {
                 de las mujeres
             </p>
 
-            <!--Boton ortopedia
-            <figure class="ortopedia">
-                <h1 class="title-ortopedia">
-                    Ortopedia
-                </h1>
-            </figure>
-            <div class="foto-ortopedia">
-                <img src="res\img\ortopedia.jpg" alt="Ortopedia" width="225" height="132">
-            </div>
-            <p class="text-ortopedia">
-                Anestesia general
-            </p>-->
-
-            <!--Boton fisioterapia
-            <figure class="fisioterapia">
-                <h1 class="title-fisioterapia">
-                    Fisioterapia
-                </h1>
-            </figure>
-            <div class="foto-fisioterapia">
-                <img src="res\img\fisioterapia.jpg" alt="Fisioterapia" width="225" height="132">
-            </div>
-            <p class="text-fisioterapia">
-                Anestesia general
-            </p>-->
 
         </div>
 

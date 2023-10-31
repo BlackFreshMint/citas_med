@@ -15,10 +15,10 @@
                 <p class="logo"><img src="../res/svg/cimec_logo.svg" alt="logo"></p>
     
                 <nav>
-                    <a href="#">Inicio</a>
-                    <a href="#">Agendar Cita</a>
-                    <a href="#">Especialidades</a>
-                    <a href="#" class="ico">Acerca de</a>
+                    <a href="../main.php">Inicio</a>
+                    <a href="../agenda_cit.php">Agendar Cita</a>
+                    <a href="../especialistas.php">Especialidades</a>
+                    <a href="../about.php" class="ico">Acerca de</a>
                 </nav>
     
             </div>
