@@ -1,342 +1,65 @@
-*{
-    box-sizing: border-box;
-}
-@font-face {
-    font-family:"RobotoBl" ;
-    src: url(/res/font/Roboto-Black.ttf);
-}
-@font-face {
-    font-family: 'MontserratEB';
-    src: url(/res/font/Montserrat-ExtraBold.ttf);
-}
+@media (max-width:475px){
 
-@font-face {
-    font-family:'MontserratB' ;
-    src: url(/res/font/Montserrat-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'MontserratSB' ;
-    src: url(/res/font/Montserrat-SemiBold.ttf);
-}
-@font-face {
-    font-family: 'MontserratM';
-    src: url(/res/font/Montserrat-Medium.ttf);
-}
-
-body{
-    margin: 0;
-}
-
-.container{
-    max-width: 1400px;
-    margin: auto;
-}
-
-h1{
-    text-align: center;
-    font-family: "MontserratEB";
-    font-size: 2.2em;
-}
-
-p{
-    text-align: center;
-    font-family: "MontserratM";
-}
-
-button{
-    border: 10px white;
-    border-radius: 60px;
-    width: 150px;
-    height: 50px
-}
-
-#about .right img{
-    display: none;
-}
-
-#citas .left{
-    display: none;
-}
-
-#citas .left img{
-    display: none;
-}
-
-#espe .right img{
-    display: none;
-}
-
-#about .container .left{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#about .container .left h1{
-    margin: 30px 0px 0px 0px;
-}
-
-#about .container .left img{
-    width: 360px;
-    height: auto;
-}
-
-#about .container .left p{
-    margin: 10px 5px 20px 5px;
-}
-
-#about .container .left .img-log{
-    width: 40px;
-    padding-left: 5px;
-}
-
-#about .container .left button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(3, 3, 133);
-    color: white;
-    font-family: "MontserratB";
-    font-size: 1.2em;
-}
-
-#citas .container .right{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#citas .container .right h1{
-    margin: 50px 0px 0px 0px;
-}
-
-#citas .container .right img{
-    width: 300px;
-    margin-top: -10px;
-}
-
-#citas .container .right p{
-    margin: 10px 5px 20px 5px;
-}
-
-#citas .container .right .bot{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#citas .container .right .bot button{
-    margin: 0px 25px;
-    color: white;
-    font-family: "MontserratEB";
-    text-shadow: 0em 0.12em black;
-
-}
-
-#citas .container .right .bot .agen{
-    background-color: #18AA52;
-}
-
-#citas .container .right .bot .mycit{
-    background-color: #737373;
-}
-
-#espe{
-    padding-bottom: 30px;
-}
-
-#espe .container .left{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#espe .container .left h1{
-    margin: 50px 0px 0px 0px;
-}
-
-#espe .container .left .im-sub{
-    width: 250px;
-    margin-top: -15px;
-}
-
-#espe .container .left p{
-    margin: 0px 5px 20px 5px;
-}
-
-#espe .container .left button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #DA041E;
-    color: white;
-    font-family: "MontserratB";
-    font-size: 1.2em;
-    
-}
-
-#espe .container .left .im-but{
-    width: 40px;
-    padding-left: 5px;
-}
-
-
-
-@media (min-width:1000px){
-
-    #about{
+    .head_nav{
         display: flex;
-    }
-    
-    #citas{
-        display: flex;
-        margin-top: 6em;
-    }
-
-    #espe{
-        display: flex;
-        margin-top: 6em;
-    }
-
-    #about .container .left{
-        width: 60%;
-        float:left;
-    }
-
-    #about .container .left h1{
-        margin-top: 60px;
-        font-size: 4em;
-    }
-
-    #about .container .left img{
-        width: 600px;
-        margin-top: -20px;
-    }
-
-    #about .container .left p{
-        font-size: 1.5em;
-    }
-
-    #about .container .left button{
-        width: 300px;
-        height: 100px;
-        font-size: 2.2em;
-    }
-
-    #about .container .left .img-log{
-        margin: 0;
-        width: 60px;
-        fill: #ffffff;
-    }
-
-    #about .container .right{
-        display: flex;
+        flex-direction: row;
         justify-content: center;
-        width: 40%;
-        float: right;
     }
-
-    #about .container .right img{
+    .internal_container{
         display: flex;
-        width: 280px;
+        flex-direction: row;
     }
+    .title_block{
+        padding: 5px;
+        background-color: bisque;
+        border-radius: 10px;
 
-    #citas .left{
-        display: flex;
+    }
+    .ico_logo{
+        display: none;
+    }
+    #itc1{
+        justify-content:center;
+        margin-left: -30px;
+        margin-right: 60px;
+    }
+    #navtx{
+        margin-left: 10px;
+        font-family: "Fredoka";
+        font-weight: 600;
+    }
+    #reg_button{
+        height: 30px;
+        width: 90px;
+        border-radius: 10px;
+        margin-top: 10px;
+        border: 0;
+        margin-left: 10px;
+        background-color: rgba(119, 140, 248, .7);
+        font-family: "Fredoka";
+        font-weight: 600;
+    }
+    #welcome_tx{
+        text-align: center;
+        width: 370px;
+        margin-left: 40px;
+        font-family: "Fredoka";
+        font-weight: 500;
+        font-size: 20px;
+    }
+    #w_title{
+        text-align: center;
+        width: 380px;
+        margin-left: 40px;
+        font-family: "Fredoka";
+        font-size: 40px;
+        font-weight: 600;
+    }
+    #center_container{
         justify-content: center;
-        width: 40%;
-        float: left;
-    }
-    
-    #citas .left img{
-        display: flex;
     }
 
-    #citas .right{
-        width: 60%;
-        float: right;
-    }
+}
+@media (max-width:1024px){
 
-    #citas .container .right h1{
-        font-size: 4em;
-    }
-
-    #citas .container .right img{
-        width: 600px;
-        margin-top: -20px;
-    }
-
-    #citas .container .right p{
-        font-size: 1.5em;
-    }
-
-    #citas .container .right .bot button{
-        width: 300px;
-        height: 100px;
-        font-size: 2.2em;
-        
-    }
-
-    #citas .container .right .bot a{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'MontserratEB';
-        width: 300px;
-        border-radius: 60px;
-        font-size: 2.0em;
-        background-color: #18AA52;
-    }
-
-    #citas .container .right .bot a:hover{
-        background-color: #0f6632;
-    }
-
-    #espe .container .left{
-        margin: 0;
-        width: 60%;
-        float: left;
-    }
-
-    #espe .container .right{
-        width: 40%;
-        display: flex;
-        justify-content: center;
-        float: right;
-    }
-
-    #espe .container .right img{
-        display: flex;
-        width: 50%;
-        float: right;
-    }
-
-    #espe .container .left h1{
-        font-size: 4em;
-    }
-
-    #espe .container .left .im-sub{
-        width: 500px;
-        margin-top: -30px;
-    }
-
-    #espe .container .left p{
-        font-size: 1.5em;
-    }
-
-    #espe .container .left button{
-        width: 300px;
-        height: 100px;
-        font-size: 2.2em;
-    }
-
-    #espe .container .left .im-but{
-        margin: 0;
-        width: 60px;
-    }
-
-    #espe .container .right img{
-        width: 400px;
-    }
 }
