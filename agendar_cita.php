@@ -11,7 +11,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
+
 
     <title>Document</title>
 </head>
@@ -45,7 +46,7 @@
                    $password = "";
                    $base = "cimec";
                    $conexion = new mysqli($servidor, $usuario, $password, $base);
-                   
+
                    if ($cone->connect_error) {
                        die("Error en la conexión: " . $cone->connect_error);
                    }
@@ -79,7 +80,7 @@
         </div>
     </div>
 
-    
+
 
     <!-- Cierra el primer contenedor antes de abrir el segundo -->
     </div>
@@ -94,11 +95,11 @@
                     <p class="boton_letra">Agendar</p>
 </button>
                 </div>
-                
+
             </div>
-            
+
         </div>
-        
+
     </div>
 </body>
 
