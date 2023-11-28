@@ -1,0 +1,47 @@
+body{
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.cuadro{
+    border-radius: 60px;
+    padding: 30px;
+    background-color: #FFE0F0;
+    width: 90%;
+    height: 450px;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 20px;
+    width: 40%;
+    margin-left: 9%;
+    margin-top: 60px;
+    text-align: justify;
+}
+
+.boton{
+    font-size: 20px;
+    margin-top: 30px;
+    width: 420px;
+    height: 82px;
+    position: absolute;
+    left: 15%;
+    background-color: black;
+    color: #FFF;
+    border-radius: 60px;
+}
+
+.imagen{
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    width: 270px;
+    height: 270px;
+}
+
