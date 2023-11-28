@@ -1,0 +1,71 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.title {
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex; /* Establecer como contenedor flexible */
+    flex-direction: row; /* Disposición en fila para que div1 y div2 estén al lado */
+}
+
+.div1 {
+    flex: 2;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+.div2 {
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE0F0;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 30px;
+}
+.confirmacion{
+    width: max-content;
+    height: 300px;
+}
+ p{
+    font-size: 20px;
+    text-align: justify;
+ }
+
+ .boton {
+    height: 60px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:  absolute;
+    left: 33%;
+    margin-top: 38px;
+}
+ .boton_letra{
+    color: azure;
+    font-family: 'Fredoka', sans-serif;
+ }
