@@ -15,9 +15,11 @@
       <div id="slides">
          <div id="overflow">
             <div class="inner">
-               <div class="slide slide_1">
-                  <div class="slide-content">
-                     <div class="card" id="c1"></div>
+               <a href="agendar_cita.php">
+                  <div class="slide slide_1">
+                     <div class="slide-content">
+                        <div class="card" id="c1"></div>
+               </a>
                   </div>
                </div>
                <div class="slide slide_2">

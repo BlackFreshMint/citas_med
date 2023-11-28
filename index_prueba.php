@@ -27,7 +27,7 @@
         </div>
         <!-- desktop view -->
         <div id="card_container">
-            <div class="card" id="c1"></div>
+            <a href="agendar_cita.php"><div class="card" id="c1"></div></a>
             <div class="card" id="c2"></div>
             <div class="card" id="c3"></div>
         </div>
@@ -38,41 +38,42 @@
         <p class="normal_text">"En el corazon de la salud, reservamos tu bienestar"</p>
         <hr id="line">
 
-        <div class="internal_container" id="itc1">
-            <div class="title_block">¿Medicina?</div>
-            <div class="title_block" id="toggle">Metas</div>
-            <div class="title_block" id="toggle2">Valores</div>
-        </div>
+        <div class="columns_container" id="text_col">
 
-        <div class="internal_container" id="text_col">
-            <p class="normal_text" id="txt_jcenter">La medicina es el arte de sanar, la ciencia de cuidar, y el motor de la vida. Encuentra inspiración en la búsqueda constante de un cuerpo y mente saludables.</p>
-            <div class="title_block" id="toggle3">Metas</div>
+            <section id="columns">
+                <div class="title_block">¿Medicina?</div>
+                <p class="normal_text" id="txt_jcenter">La medicina es el arte de sanar, la ciencia de cuidar, y el motor de la vida. Encuentra inspiración en la búsqueda constante de un cuerpo y mente saludables.</p>
+            </section>
 
-            <div id="text_col2">
-                <ol class="normal_text" id="txt_list">
-                    <li>Curar</li>
-                    <li>Prevenir</li>
-                    <li>Investigar</li>
-                    <li>Sanar</li>
-                    <li>Cuidar</li>
-                    <li>Aliviar</li>
-                    <li>Innovar</li>
-                </ol>
-            </div>
+            <section id="columns">
+                <div class="title_block">Metas</div>
+                <div id="text_col2">
+                    <ol class="normal_text" id="txt_li1">
+                        <li>Curar</li>
+                        <li>Prevenir</li>
+                        <li>Investigar</li>
+                        <li>Sanar</li>
+                        <li>Cuidar</li>
+                        <li>Aliviar</li>
+                        <li>Innovar</li>
+                    </ol>
+                </div>
+            </section>
 
-            <div class="title_block" id="toggle4">Valores</div>
+            <section id="columns">
+                <div class="title_block">Valores</div>
+                <div id="text_col2">
 
-            <div id="text_col2">
-
-                <ol class="normal_text" id="txt_list1">
-                    <li>Compasion</li>
-                    <li>Etica</li>
-                    <li>Empatia</li>
-                    <li>Integridad</li>
-                    <li>Paciencia</li>
-                    <li>Responsabilidad</li>
-                </ol>
-            </div>
+                    <ol class="normal_text" id="txt_li2">
+                        <li>Compasion</li>
+                        <li>Etica</li>
+                        <li>Empatia</li>
+                        <li>Integridad</li>
+                        <li>Paciencia</li>
+                        <li>Responsabilidad</li>
+                    </ol>
+                </div>
+            </section>
 
         </div>
 

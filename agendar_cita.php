@@ -12,13 +12,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/index.css">
 
 
     <title>Document</title>
 </head>
+<?php include"header.php" ?>
 
 <body>
-    <div class="container">
+    <div class="container_">
 
 
         <div class="content">
@@ -102,5 +104,6 @@
 
     </div>
 </body>
+<?php include"footer.php" ?>
 
 </html>
