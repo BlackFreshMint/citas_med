@@ -9,7 +9,7 @@ body {
 }
 
 /* Contenedor principal */
-.container {
+.container3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,11 +20,11 @@ body {
     border-radius: 30px;
     filter: grayscale(0.2);
     font-size: 18px;
-    width: 1300px;
+   
 }
 
 /* Contenido dentro de .container */
-.content {
+.content3 {
     display: flex;
     flex-direction: row;
     margin: 10px;
@@ -32,6 +32,7 @@ body {
 
 /* Primer div dentro de .content */
 .div1 {
+    font-family: 'Fredoka', sans-serif;
     flex: 2;
     padding-top: 5px;
     margin-right: 20px;
@@ -57,7 +58,7 @@ body {
 .calendario input {
     font-family: 'Fredoka', sans-serif;
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     margin-bottom: 20px;
     border-radius: 8px;
     border: 1px solid #ccc;
@@ -92,7 +93,7 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     margin-top: 5px;
     text-align: center;
-    width: 1280px;
+   
     height: 200px;
 }
 
@@ -104,7 +105,7 @@ body {
 }
 
 /* Estilos del botón */
-.boton {
+.boton1 {
     height: 60px;
     width: 200px;
     border-radius: 50px;
@@ -112,10 +113,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    left: 43%;
+    position: relative;
+    left: 39%;
     margin-top: 5px;
-    transition: background-color 0.3s ease-in-out; /* Agregado efecto de transición */
+    transition: background-color 0.3s ease-in-out;
+    margin-top: -10px; /* Agregado efecto de transición */
+    
 }
 
 .boton_letra {

@@ -463,7 +463,7 @@
   font-weight: 500;
   outline: none;
   border: none;
-  color: #fff;
+  color: #000000;
   background-color: var(--primary-clr);
   border-radius: 5px;
   cursor: pointer;
