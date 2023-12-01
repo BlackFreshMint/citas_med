@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Fredoka";
+    src: url(../res/fonts/Fredoka.ttf);
+}
+
+#foot{
+    background-color: #111111;
+}
+
+#contact h1{
+    margin: 40px 0px;
+    color: white;
+    font-size: 48px;
+    font-family: "Fredoka";
+    line-height: normal;
+    letter-spacing: 2.4px;
+    font-weight: bold;
+}
+
+#icons_footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#icons_footer .logo_left img{
+    width: 74px;
+    height: 74px;
+}
+
+#icons_footer .icons_right img{
+    width: 45px;
+    height: 45px;
+    margin: 0px 0px 0px 16px;
+}
+
+#links_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#links_footer .link_right a{
+    display: flex;
+    flex-direction: column;
+    font-family: "Fredoka";
+    font-size: 20px;
+    font-weight: medium;
+    color: white;
+}
+
+#links_footer .link_center a{
+    display: flex;
+    flex-direction: column;
+    font-family: "Fredoka";
+    font-size: 20px;
+    font-weight: medium;
+    color: white;
+}
+
+#links_footer .link_left a{
+    display: flex;
+    flex-direction: column;
+    font-family: "Fredoka";
+    font-size: 20px;
+    font-weight: medium;
+    color: white;
+}
+
+#copyright p{
+    color: #4F4F4F;
+    font-family: "Fredoka";
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
