@@ -91,7 +91,7 @@ CSS:
     display: flexbox:
     flex-direction: column;
 }
-.flex2 {
+.flex {
     display: flexbox;
     flex-direction: row;
 }
