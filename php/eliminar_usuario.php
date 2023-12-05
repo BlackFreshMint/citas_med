@@ -2,7 +2,7 @@
 $servidor = "localhost";
 $usuario = "root";
 $password = "";
-$base = "cimec";
+$base = "cimec2";
 $cone = new mysqli($servidor, $usuario, $password, $base);
 
 if (mysqli_connect_error()) {
