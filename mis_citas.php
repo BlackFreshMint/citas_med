@@ -65,7 +65,7 @@
 
         function cargarUsuarios() {
             $.ajax({
-                url: 'cargar_usuarios.php',
+                url: 'php/cargar_usuarios.php',
                 type: 'GET',
                 success: function(response){
                     $('#usuariosTable tbody').html(response);
@@ -118,7 +118,7 @@
 
             $.ajax({
                 type: 'POST',
-                url: 'guardar_edicion.php',
+                url: 'php/guardar_edicion.php',
                 data: {
                     CITA_ID: CITA_ID,
                     ESPECIALIDAD: ESPECIALIDAD,
@@ -142,7 +142,7 @@
         function eliminarUsuario(CITA_ID) {
             $.ajax({
                 type: 'POST',
-                url: 'eliminar_usuario.php',
+                url: 'php/eliminar_usuario.php',
                 data: {
                     CITA_ID: CITA_ID
                 },
