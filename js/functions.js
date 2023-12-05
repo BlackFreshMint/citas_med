@@ -96,6 +96,7 @@ function CreateUser() {
         },
         success: function(response) {
             alert('User Correctly Created');
+            window.location.reload();
         },
         error: function(xhr, status, error) {
             console.log('AJAX request failed. Status: ' + status + ', Error: ' + error);
