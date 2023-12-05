@@ -6,13 +6,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="js/functions.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/register.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
-    <title>Document</title>
+    <title>Documento</title>
 </head>
-
 
 <body>
 
@@ -42,55 +43,52 @@ seran utilizados en los proximas citas que usted puede agendar.</div>
                             <div class="row" id="separator">
                                 <div class="col">
                                     <label class="label_title" for="">Nombre(s)<span class="red">*</span></label><br>
-                                    <input class="gen_input" type="text" required>
+                                    <input type="text" id="addNOMBRE" class="gen_input" name="Nombre" required>
                                 </div>
 
                                 <div class="col">
                                     <label class="label_title" for="">Apellidos<span class="red">*</span></label><br>
-                                    <input class="gen_input" type="text" required>
+                                    <input type="text" id="addAPELLIDO" class="gen_input"  name="Apellido" required>
                                 </div>
                             </div>
 
                             <div class="row" id="separator">
                                 <div class="col">
-                                    <label class="curp_title" for="">CURP<span class="red">*</span></label><br>
-                                    <input class="gen_input3" type="text" required> 
-                                </div>
-
-                                <div class="col">
-                                    <label class="birthday_title" for="">Fecha de Nacimiento<span class="red">*</span></label><br>
-                                    <input class="gen_input4" type="text" required>
+                                <label class="curp_title" for="">CURP<span class="red">*</span></label><br>
+                                    <input type="text" id="addCURP" class="gen_input3"  name="Curp" required>
                                 </div>
                             </div>
 
 
                             <div class="row" id="separator">
                                 <div class="col">
+
                                     <label class="phone_title" for="">Telefono Movil<span class="red">*</span></label><br>
-                                    <input class="gen_input" type="text" required>
+                                    <input type="text" id="addTELEFONO" name="Telefono" class="gen_input" required>
                                 </div>
 
                                 <div class="col">
+
                                     <label class="email_title" for="">Correo Electronico<span class="red"></span></label><br>
-                                    <input class="gen_input" type="text" required>
+                                    <input type="text" id="addCORREO" class="gen_input" name="Correo" required>
                                 </div>
                             </div>
                             <div class="row" id="separator">
                                 <div class="col">
                                     <label class="dir_title" for="">Direccion</label><br>
-                                        <input class="gen_input2" id="form_div" type="text" >
+                                        <input type="text" id="addDIRECCION" name="Direccion" class="gen_input2">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col">
                                     <label class="clinic_title" for="">Clinica de Atencion</label><br>
-                                    <input class="gen_input2" id="form_div" type="text">
+                                    <input type="text" id="addUMED" name="Unidad_Medica" class="gen_input2">
                                 </div>
                             </div>
                             <div class="row justify-content-center">
                                 <div class="col">
-                                    <button class="submit_button" onclick="window.location.href='agendar.php'">REGISTRARME</button>
+                                    <button class="submit_button" type="button" onclick="CreateUser()">Registrarme</button>
                                 </div>
                             </div>
 
