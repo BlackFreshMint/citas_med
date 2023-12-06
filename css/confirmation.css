@@ -1,0 +1,40 @@
+.submit_button{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    width: 277px;
+    height: 73px;
+    padding: 32px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 60px;
+    background-color: #111;
+    font-size: 28px;
+    font-family: 'Fredoka';
+    font-weight: 700;
+    color: #FFF;
+    margin-left: 25%;
+}
+#title_success{
+    font-family: Fredoka;
+    font-size: 36px;
+    font-weight: 700;
+}
+#body_success_text{
+    font-family: Fredoka;
+    font-size: 30px;
+    font-weight: 500;
+}
+#image_success{
+    width: 90%;
+    height: 90%;
+}
+#n_separator{
+    margin-top: 30px;
+}
+#form_container{
+    border-radius: 60px;
+    background-color: #FFE0F0;
+    margin: 20px;
+}
