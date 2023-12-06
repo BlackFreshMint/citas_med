@@ -21,19 +21,23 @@ if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
         echo "
         <tr>
-            <td>{$row['CITA_ID']}</td>
-            <td>{$row['ESPECIALIDAD']}</td>
-            <td>{$row['FECHA']}</td>
-            <td>{$row['HORA']}</td>
-            
+            <td>{$row['Cita_id']}</td>
+            <td>{$row['Curp_paciente']}</td>
+            <td>{$row['Especialidad_id']}</td>
+            <td>{$row['Doctor_id']}</td>
+            <td>{$row['Dia']}</td>
+            <td>{$row['Observaciones']}</td>
+
             <td>
                 <button onclick='mostrarEditarUsuario(
-                    \"{$row['CITA_ID']}\",
-                    \"{$row['ESPECIALIDAD']}\",
-                    \"{$row['FECHA']}\",
-                    \"{$row['HORA']}\")'>Editar
+                    \"{$row['Cita_id']}\",
+                    \"{$row['Curp_paciente']}\",
+                    \"{$row['Especialidad_id']}\",
+                    \"{$row['Doctor_id']}\"),
+                    \"{$row['Dia']}\",
+                    \"{$row['Observaciones']}\",'>Editar
                 </button>
-                <button onclick='eliminarUsuario(\"{$row['CITA_ID']}\")'>Eliminar</button>
+                <button onclick='eliminarUsuario(\"{$row['Cita_id']}\")'>Eliminar</button>
             </td>
         </tr>";
     }
