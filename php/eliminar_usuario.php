@@ -9,11 +9,11 @@ if (mysqli_connect_error()) {
     die("Conexion fallida: " . $cone->connect_error);
 }
 
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['CITA_ID'])) {
-    $CITA_ID = $_POST['CITA_ID'];
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['Cita_id'])) {
+    $Cita_id = $_POST['Cita_id'];
 
     // Eliminar el usuario
-    $sql_delete = "DELETE FROM citas WHERE CITA_ID = '$CITA_ID'"; // Agregué comillas al valor de $Curp
+    $sql_delete = "DELETE FROM citas WHERE Cita_id = '$Cita_id'"; // Agregué comillas al valor de $Curp
 
     if ($cone->query($sql_delete) === TRUE) {
         echo "Cita eliminada correctamente";
