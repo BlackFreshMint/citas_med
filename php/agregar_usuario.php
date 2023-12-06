@@ -10,16 +10,18 @@
     }
 
     // Verificar si se envió información para agregar un usuario
-    if ($_SERVER["REQUEST_METHOD"] == "POST" &&  ($_POST['CITA_ID']) && isset($_POST['ESPECIALIDAD']) && isset($_POST['FECHA']) && isset($_POST['HORA'])) {
+    if ($_SERVER["REQUEST_METHOD"] == "POST" &&  ($_POST['Cita_id']) && isset($_POST['Curp_paciente']) && isset($_POST['Especialidad_id']) && isset($_POST['Doctor_id']) && isset($_POST['Dia']) && isset($_POST['Observaciones'])) {
         
         // Obtener los datos del formulario
-        $CITA_ID = $_POST['CITA_ID']; // Cambiar $id_rol por $rol
-        $ESPECIALIDAD = $_POST['ESPECIALIDAD'];
-        $FECHA = $_POST['FECHA'];
-        $HORA = $_POST['HORA'];
+        $Cita_id = $_POST['Cita_id']; // Cambiar $id_rol por $rol
+        $Curp_paciente = $_POST['Curp_paciente'];
+        $Especialidad_id = $_POST['Especialidad_id'];
+        $Doctor_id = $_POST['Doctor_id'];
+        $Dia = $_POST['Dia'];
+        $Observaciones = $_POST['Observaciones'];
 
         // Preparar la consulta para insertar un nuevo usuario
-        $sql = "INSERT INTO citas (CITA_ID, ESPECIALIDAD, FECHA, HORA) VALUES ('$CITA_ID', '$ESPECIALIDAD', '$FECHA', '$HORA')";
+        $sql = "INSERT INTO citas (Cita_id, Curp_paciente, Especialidad_id, Doctor_id, Dia, Observaciones) VALUES ('$Cita_id', '$Curp_paciente', '$Especialidad_id', '$Doctor_id', '$Dia', '$Observaciones')";
 
         if (mysqli_query($cone, $sql)) {
             echo "Usuario agregado correctamente";
