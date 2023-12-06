@@ -8,20 +8,24 @@
     if(mysqli_connect_error()){
         die("Conexion fallida".$cone->connect_error);
     }
-    $CITA_ID= $_POST['CITA_ID'];
-    $ESPECIALIDAD=$_POST['ESPECIALIDAD'];
-    $FECHA=$_POST['FECHA'];
-    $HORA=$_POST['HORA'];
+    $Cita_id= $_POST['Cita_id'];
+    $Curp_paciente= $_POST['Curp_paciente'];
+    $Especialidad_id= $_POST['Especialidad_id'];
+    $Doctor_id=$_POST['Doctor_id'];
+    $Dia=$_POST['Dia'];
+    $Observaciones=$_POST['Observaciones'];
 
 
     $sqlupdate = "UPDATE citas SET
-        CITA_ID = '$CITA_ID',
-        ESPECIALIDAD = '$ESPECIALIDAD',
-        FECHA = '$FECHA',
-        HORA = '$HORA'
+        Cita_id = '$Cita_id',
+        Curp_paciente = '$Curp_paciente',
+        Especialidad_id = '$Especialidad_id',
+        Doctor_id = '$Doctor_id',
+        Dia = '$Dia',
+        Observaciones = '$Observaciones'
         
     
-    WHERE CITA_ID = '$CITA_ID'";
+    WHERE Cita_id = '$Cita_id'";
 
     if($cone -> query ($sqlupdate)=== true){
             echo "Cita correctamente actualizada";
